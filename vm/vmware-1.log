@@ -1,0 +1,1589 @@
+Dec 28 22:30:19.860: vmx| Log for VMware Workstation pid=3448 version=6.0.0 build=build-45731 option=Release
+Dec 28 22:30:19.860: vmx| Hostname=SYNAPSE
+Dec 28 22:30:19.860: vmx| Command line: "C:\Program Files\VMware\VMware Workstation\bin\vmware-vmx.exe" "-#" "name=VMware Workstation;version=6.0.0;licensename=VMware Workstation for Win32;licenseversion=6.0 build-45731;" "-@" "pipe=\\.\pipe\vmx247d25276ecd1104;" "C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx"
+Dec 28 22:30:19.881: vmx| UI Connecting to pipe '\\.\pipe\vmx247d25276ecd1104' with user '(null)'
+Dec 28 22:30:19.978: vmx| HD: host version is 6.1.7600
+Dec 28 22:30:19.978: vmx| HD: addr 82a932db
+Dec 28 22:30:19.983: vmx| HD: 82b5f358, 0
+Dec 28 22:30:19.984: vmx| CPU #0 TSC = 270269453825200
+Dec 28 22:30:19.984: vmx| CPU #1 TSC = 270269453825258
+Dec 28 22:30:19.984: vmx| TSC delta 58
+Dec 28 22:30:19.984: vmx| VMMon_GetkHzEstimate: Calculated 2520700 kHz
+Dec 28 22:30:19.984: vmx| CPUID[0] vendor: GenuntelineI
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000001, 0: 0x0001067a 0x00020800 0x0c00e39d 0xbfebfbff
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:30:19.984: vmx| CPUID[0] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[0] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[1] vendor: GenuntelineI
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000001, 0: 0x0001067a 0x01020800 0x0c00e39d 0xbfebfbff
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:30:19.984: vmx| CPUID[1] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:30:19.985: vmx| CPUID[1] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID[1] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID vendor: GenuntelineI
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000001, 0: 0x0001067a 0x00020800 0x0c00e39d 0xbfebfbff
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:30:19.985: vmx| hostCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:19.985: vmx| CPUID Maximum Physical Address Bits supported across all CPUs : 36
+Dec 28 22:30:19.990: vmx| Host ACPI: can't find SRAT
+Dec 28 22:30:19.991: vmx| Host: SRAT tables not found in memory
+Dec 28 22:30:20.192: vmx| ACL_InitCapabilities: current IPC thread
+Dec 28 22:30:20.193: vmx| ACL_InitCapabilities: done
+Dec 28 22:30:20.193: vmx| changing directory to C:\Users\Ecco\Desktop\eos-core\vm\.
+Dec 28 22:30:20.193: vmx| Config file: C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.209: vmx| LOG failed to remove C:\Users\Ecco\Desktop\eos-core\vm\vmware-2.log failed: The system cannot find the file specified
+Dec 28 22:30:20.230: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:30:20.286: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset
+Dec 28 22:30:20.287: vmx| PowerOn
+Dec 28 22:30:20.287: vmx| Host: WIN32 highest NUMA node 0
+Dec 28 22:30:20.287: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Dec 28 22:30:20.291: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:30:20.297: vmx| HOST Windows version 6.1, build 7600, platform 2, "", SMP
+Dec 28 22:30:20.297: vmx| DICT --- USER PREFERENCES
+Dec 28 22:30:20.297: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Dec 28 22:30:20.297: vmx| DICT   pref.eula.0.buildNumber = 45731
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest0.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest0.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest0.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest1.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest1.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest1.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest2.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest2.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest2.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest3.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest3.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest3.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest4.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest4.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest4.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest5.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest5.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest5.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest6.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest6.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest6.user = 
+Dec 28 22:30:20.297: vmx| DICT     pref.mruDest7.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT  pref.mruDest7.destString = 
+Dec 28 22:30:20.297: vmx| DICT        pref.mruDest7.user = 
+Dec 28 22:30:20.297: vmx| DICT      pref.mruATS0.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT    pref.mruATS0.atsString = 
+Dec 28 22:30:20.297: vmx| DICT       pref.mruATS0.domain = 
+Dec 28 22:30:20.297: vmx| DICT         pref.mruATS0.user = 
+Dec 28 22:30:20.297: vmx| DICT       pref.mruATS0.secure = FALSE
+Dec 28 22:30:20.297: vmx| DICT         pref.mruATS0.port = 0
+Dec 28 22:30:20.297: vmx| DICT      pref.mruATS1.present = FALSE
+Dec 28 22:30:20.297: vmx| DICT    pref.mruATS1.atsString = 
+Dec 28 22:30:20.297: vmx| DICT       pref.mruATS1.domain = 
+Dec 28 22:30:20.297: vmx| DICT         pref.mruATS1.user = 
+Dec 28 22:30:20.297: vmx| DICT       pref.mruATS1.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS1.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS2.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS2.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS2.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS2.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS2.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS2.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS3.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS3.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS3.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS3.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS3.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS3.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS4.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS4.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS4.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS4.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS4.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS4.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS5.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS5.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS5.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS5.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS5.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS5.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS6.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS6.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS6.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS6.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS6.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS6.port = 0
+Dec 28 22:30:20.298: vmx| DICT      pref.mruATS7.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT    pref.mruATS7.atsString = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS7.domain = 
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS7.user = 
+Dec 28 22:30:20.298: vmx| DICT       pref.mruATS7.secure = FALSE
+Dec 28 22:30:20.298: vmx| DICT         pref.mruATS7.port = 0
+Dec 28 22:30:20.298: vmx| DICT       webUpdate.checkLast = 1290217323
+Dec 28 22:30:20.298: vmx| DICT webUpdate.lastCheck.status = done_updates
+Dec 28 22:30:20.298: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,VPLAY_PLAY,VPLAY_RECORD,VPLAY_STOP
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.currentObj.path = /vm/#247d25276ecd1104/
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.currentObj.type = vm
+Dec 28 22:30:20.298: vmx| DICT pref.ws.openedObj0.present = FALSE
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.openedObj0.name = Other
+Dec 28 22:30:20.298: vmx| DICT pref.ws.openedObj1.present = TRUE
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.openedObj1.type = vm
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.openedObj1.path = /vm/#247d25276ecd1104/
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.openedObj1.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.298: vmx| DICT   pref.ws.openedObj1.name = Other
+Dec 28 22:30:20.298: vmx| DICT  pref.ws.openedObj.maxNum = 2
+Dec 28 22:30:20.298: vmx| DICT       pref.placement.left = 288
+Dec 28 22:30:20.298: vmx| DICT        pref.placement.top = 247
+Dec 28 22:30:20.298: vmx| DICT      pref.placement.right = 1028
+Dec 28 22:30:20.298: vmx| DICT     pref.placement.bottom = 762
+Dec 28 22:30:20.298: vmx| DICT            pref.tip.index = 3
+Dec 28 22:30:20.298: vmx| DICT           hint.guestos.xp = FALSE
+Dec 28 22:30:20.299: vmx| DICT pref.ws.openedObj2.present = TRUE
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj2.name = Other
+Dec 28 22:30:20.299: vmx| DICT pref.ws.openedObj3.present = FALSE
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj3.type = vm
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj3.path = /vm/#244e6069d31b4d02/
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj3.file = C:\Users\Ecco\Documents\Virtual Machines\LFS\Other Linux 2.6.x kernel.vmx
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj3.name = LFS
+Dec 28 22:30:20.299: vmx| DICT          pref.tip.startup = FALSE
+Dec 28 22:30:20.299: vmx| DICT          pref.view.navBar = FALSE
+Dec 28 22:30:20.299: vmx| DICT        hint.vmui.poweroff = FALSE
+Dec 28 22:30:20.299: vmx| DICT    hint.vmui.vmWizardHint = FALSE
+Dec 28 22:30:20.299: vmx| DICT            pref.view.tabs = FALSE
+Dec 28 22:30:20.299: vmx| DICT              pref.autoFit = TRUE
+Dec 28 22:30:20.299: vmx| DICT       pref.view.statusBar = TRUE
+Dec 28 22:30:20.299: vmx| DICT  pref.view.toolbars.power = TRUE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.snapshot = FALSE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.snapshot.position.newLine = FALSE
+Dec 28 22:30:20.299: vmx| DICT   pref.view.toolbars.view = TRUE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.view.position.newLine = FALSE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.vplay.position.newLine = FALSE
+Dec 28 22:30:20.299: vmx| DICT pref.autoFitGuestToWindow = FALSE
+Dec 28 22:30:20.299: vmx| DICT hint.mainmem.lazySnapshotHint = FALSE
+Dec 28 22:30:20.299: vmx| DICT     hint.tools.toolsImage = FALSE
+Dec 28 22:30:20.299: vmx| DICT pref.ws.openedObj4.present = FALSE
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj4.type = vm
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj4.path = /vm/#d7e9f9f6a803be5b/
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj4.file = C:\Users\Ecco\Documents\Virtual Machines\Windows 7\Windows Vista.vmx
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj4.name = Windows 7
+Dec 28 22:30:20.299: vmx| DICT pref.snapshotManager.left = 485
+Dec 28 22:30:20.299: vmx| DICT  pref.snapshotManager.top = 153
+Dec 28 22:30:20.299: vmx| DICT pref.snapshotManager.right = 1035
+Dec 28 22:30:20.299: vmx| DICT pref.snapshotManager.bottom = 633
+Dec 28 22:30:20.299: vmx| DICT    pref.view.navBar.width = 313
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj2.type = vm
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj2.path = /vm/#247d25276ecd1104/
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj2.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.299: vmx| DICT pref.ws.openedObj5.present = TRUE
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj5.type = vm
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj5.path = /vm/#860c8dc9c2c3c36e/
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj5.file = C:\Users\Ecco\Desktop\EOS\vmware\EOS.vmx
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj5.name = EOS
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj6.type = vm
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj6.path = /vm/#635e4b7c5ece80a6/
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj6.file = C:\Users\Ecco\Documents\Virtual Machines\Windows XP Professional\Windows XP Professional.vmx
+Dec 28 22:30:20.299: vmx| DICT   pref.ws.openedObj6.name = Windows XP Professional
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.power.position.ix = 1
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.power.position.length = 113
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.snapshot.position.ix = 3
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.view.position.ix = 2
+Dec 28 22:30:20.299: vmx| DICT pref.view.toolbars.view.position.length = 605
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.vplay.position.ix = 4
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.vplay.position.length = 75
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj7.type = vm
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj7.path = /vm/#85aa6214a9c163c8/
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj7.file = C:\Users\Ecco\Documents\Virtual Machines\Windows Server 2003 Standard Edition\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj7.name = Windows Server 2003 Standard Edition
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj8.type = vm
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj8.path = /vm/#8ca816d084928f76/
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj8.file = C:\Users\Ecco\Documents\Virtual Machines\fbstech\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj8.name = fbstech
+Dec 28 22:30:20.300: vmx| DICT  hint.tools.toolsReminder = FALSE
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj0.type = vm
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj0.path = /vm/#247d25276ecd1104/
+Dec 28 22:30:20.300: vmx| DICT   pref.ws.openedObj0.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.300: vmx| DICT  pref.sharedFolder.maxNum = 2
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder0.vmPath = /vm/#29146c6eb01cb4a9/
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder0.guestName = Untitled-1
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder0.hostPath = C:\eos\build
+Dec 28 22:30:20.300: vmx| DICT           hint.vmui.reset = FALSE
+Dec 28 22:30:20.300: vmx| DICT     webUpdate.checkPeriod = manual
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7e5cf6d88b85f01a/
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder1.guestName = Untitled-1
+Dec 28 22:30:20.300: vmx| DICT pref.sharedFolder1.hostPath = C:\eos\build
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.power.items.count = 4
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.power.item0.id = POWER_OFF
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.power.item1.id = SUSPEND
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.power.item2.id = POWER_ON
+Dec 28 22:30:20.300: vmx| DICT pref.view.toolbars.power.item3.id = RESET
+Dec 28 22:30:20.300: vmx| DICT hint.mainmem.lazyResumeHint = FALSE
+Dec 28 22:30:20.300: vmx| DICT pref.fullscreen.toolbarPixels = 0
+Dec 28 22:30:20.300: vmx| DICT        pref.view.homepage = TRUE
+Dec 28 22:30:20.300: vmx| DICT  hint.mks.hostAlphaCursor = FALSE
+Dec 28 22:30:20.300: vmx| DICT --- USER DEFAULTS
+Dec 28 22:30:20.300: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:30:20.300: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:30:20.300: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:30:20.300: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:30:20.300: vmx| DICT --- COMMAND LINE
+Dec 28 22:30:20.300: vmx| DICT             gui.available = TRUE
+Dec 28 22:30:20.300: vmx| DICT --- CONFIGURATION
+Dec 28 22:30:20.300: vmx| DICT            config.version = 8
+Dec 28 22:30:20.300: vmx| DICT         virtualHW.version = 6
+Dec 28 22:30:20.300: vmx| DICT             scsi0.present = TRUE
+Dec 28 22:30:20.300: vmx| DICT                   memsize = 16
+Dec 28 22:30:20.300: vmx| DICT            ide0:0.present = TRUE
+Dec 28 22:30:20.300: vmx| DICT           ide0:0.fileName = vm.vmdk
+Dec 28 22:30:20.300: vmx| DICT            ide1:0.present = FALSE
+Dec 28 22:30:20.300: vmx| DICT           ide1:0.fileName = vm-0.vmdk
+Dec 28 22:30:20.300: vmx| DICT         ide1:0.deviceType = disk
+Dec 28 22:30:20.300: vmx| DICT        floppy0.autodetect = TRUE
+Dec 28 22:30:20.300: vmx| DICT         ethernet0.present = FALSE
+Dec 28 22:30:20.300: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Dec 28 22:30:20.300: vmx| DICT             sound.present = FALSE
+Dec 28 22:30:20.300: vmx| DICT            sound.fileName = -1
+Dec 28 22:30:20.300: vmx| DICT          sound.autodetect = TRUE
+Dec 28 22:30:20.300: vmx| DICT           svga.autodetect = TRUE
+Dec 28 22:30:20.300: vmx| DICT        pciBridge0.present = TRUE
+Dec 28 22:30:20.300: vmx| DICT        mks.keyboardFilter = allow
+Dec 28 22:30:20.300: vmx| DICT               displayName = Other
+Dec 28 22:30:20.301: vmx| DICT                   guestOS = other
+Dec 28 22:30:20.301: vmx| DICT                     nvram = vm.nvram
+Dec 28 22:30:20.301: vmx| DICT        deploymentPlatform = windows
+Dec 28 22:30:20.301: vmx| DICT virtualHW.productCompatibility = hosted
+Dec 28 22:30:20.301: vmx| DICT      tools.upgrade.policy = manual
+Dec 28 22:30:20.301: vmx| DICT         ide1:0.autodetect = TRUE
+Dec 28 22:30:20.301: vmx| DICT          floppy0.fileType = file
+Dec 28 22:30:20.301: vmx| DICT          floppy0.fileName = boot.img
+Dec 28 22:30:20.301: vmx| DICT      floppy0.clientDevice = FALSE
+Dec 28 22:30:20.301: vmx| DICT isolation.tools.hgfs.disable = TRUE
+Dec 28 22:30:20.301: vmx| DICT     ethernet0.addressType = generated
+Dec 28 22:30:20.301: vmx| DICT             uuid.location = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:30:20.301: vmx| DICT                 uuid.bios = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:30:20.301: vmx| DICT               ide0:0.redo = 
+Dec 28 22:30:20.301: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Dec 28 22:30:20.301: vmx| DICT       scsi0.pciSlotNumber = 16
+Dec 28 22:30:20.301: vmx| DICT   ethernet0.pciSlotNumber = -1
+Dec 28 22:30:20.301: vmx| DICT       sound.pciSlotNumber = -1
+Dec 28 22:30:20.301: vmx| DICT ethernet0.generatedAddress = 00:0c:29:8a:41:37
+Dec 28 22:30:20.301: vmx| DICT ethernet0.generatedAddressOffset = 0
+Dec 28 22:30:20.301: vmx| DICT        extendedConfigFile = vm.vmxf
+Dec 28 22:30:20.301: vmx| DICT           floppy0.present = TRUE
+Dec 28 22:30:20.301: vmx| DICT            fileSearchPath = .
+Dec 28 22:30:20.301: vmx| DICT    floppy0.startConnected = TRUE
+Dec 28 22:30:20.301: vmx| DICT  ethernet0.startConnected = TRUE
+Dec 28 22:30:20.301: vmx| DICT       tools.remindInstall = TRUE
+Dec 28 22:30:20.301: vmx| DICT                   monitor = release
+Dec 28 22:30:20.301: vmx| DICT monitor_control.log_vmsample = FALSE
+Dec 28 22:30:20.301: vmx| DICT           serial0.present = TRUE
+Dec 28 22:30:20.301: vmx| DICT    serial0.yieldOnMsrRead = FALSE
+Dec 28 22:30:20.301: vmx| DICT          serial0.fileType = device
+Dec 28 22:30:20.301: vmx| DICT          serial0.fileName = COM1
+Dec 28 22:30:20.301: vmx| DICT       serial0.tryNoRxLoss = TRUE
+Dec 28 22:30:20.301: vmx| DICT           scsi0:0.present = FALSE
+Dec 28 22:30:20.301: vmx| DICT          scsi0:0.fileName = 
+Dec 28 22:30:20.301: vmx| DICT        scsi0:0.deviceType = disk
+Dec 28 22:30:20.301: vmx| DICT              scsi0:0.redo = 
+Dec 28 22:30:20.301: vmx| DICT               usb.present = TRUE
+Dec 28 22:30:20.301: vmx| DICT              ehci.present = FALSE
+Dec 28 22:30:20.301: vmx| DICT        ehci.pciSlotNumber = -1
+Dec 28 22:30:20.301: vmx| DICT               ide1:0.redo = 
+Dec 28 22:30:20.301: vmx| DICT        gui.exitAtPowerOff = FALSE
+Dec 28 22:30:20.301: vmx| DICT      gui.powerOnAtStartup = TRUE
+Dec 28 22:30:20.301: vmx| DICT             svga.maxWidth = 1024
+Dec 28 22:30:20.301: vmx| DICT            svga.maxHeight = 768
+Dec 28 22:30:20.301: vmx| DICT             svga.vramSize = 3145728
+Dec 28 22:30:20.301: vmx| DICT      disable_acceleration = FALSE
+Dec 28 22:30:20.301: vmx| DICT     serial0.pipe.endPoint = server
+Dec 28 22:30:20.301: vmx| DICT  ethernet0.connectionType = bridged
+Dec 28 22:30:20.301: vmx| DICT            ide0:1.present = FALSE
+Dec 28 22:30:20.301: vmx| DICT           ide0:1.fileName = auto detect
+Dec 28 22:30:20.301: vmx| DICT               ide0:1.redo = 
+Dec 28 22:30:20.301: vmx| DICT         ide0:1.autodetect = TRUE
+Dec 28 22:30:20.301: vmx| DICT         ide0:1.deviceType = cdrom-raw
+Dec 28 22:30:20.301: vmx| DICT            ide1:1.present = FALSE
+Dec 28 22:30:20.301: vmx| DICT           ide1:1.fileName = 
+Dec 28 22:30:20.301: vmx| DICT               ide1:1.redo = 
+Dec 28 22:30:20.301: vmx| DICT         ide0:0.autodetect = TRUE
+Dec 28 22:30:20.301: vmx| DICT         ide0:0.deviceType = disk
+Dec 28 22:30:20.301: vmx| DICT         ide1:1.autodetect = TRUE
+Dec 28 22:30:20.301: vmx| DICT         ide1:1.deviceType = disk
+Dec 28 22:30:20.301: vmx| DICT     ide1:1.startConnected = FALSE
+Dec 28 22:30:20.302: vmx| DICT        checkpoint.vmState = 
+Dec 28 22:30:20.302: vmx| DICT    serial0.startConnected = TRUE
+Dec 28 22:30:20.302: vmx| DICT isolation.tools.dnd.disable = TRUE
+Dec 28 22:30:20.302: vmx| DICT isolation.tools.copy.disable = TRUE
+Dec 28 22:30:20.302: vmx| DICT isolation.tools.paste.disable = TRUE
+Dec 28 22:30:20.302: vmx| DICT         snapshot.disabled = TRUE
+Dec 28 22:30:20.302: vmx| DICT           snapshot.action = keep
+Dec 28 22:30:20.302: vmx| DICT           floppy1.present = TRUE
+Dec 28 22:30:20.302: vmx| DICT          floppy1.fileType = file
+Dec 28 22:30:20.302: vmx| DICT          floppy1.fileName = kernel.img
+Dec 28 22:30:20.302: vmx| DICT      floppy1.clientDevice = FALSE
+Dec 28 22:30:20.302: vmx| DICT            msg.autoAnswer = TRUE
+Dec 28 22:30:20.302: vmx| DICT      msg.serial.file.open = Append
+Dec 28 22:30:20.302: vmx| DICT   usb.autoConnect.device0 = 
+Dec 28 22:30:20.302: vmx| DICT --- USER DEFAULTS
+Dec 28 22:30:20.302: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:30:20.302: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:30:20.302: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:30:20.302: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:30:20.302: vmx| DICT --- GLOBAL SETTINGS
+Dec 28 22:30:20.314: vmx| hostCpuFeatures = 0x500001fa
+Dec 28 22:30:20.314: vmx| hostNumPerfCounters = 2
+Dec 28 22:30:20.339: vmx| Host display topology 1920x1200.
+Dec 28 22:30:20.339: vmx| SVGA using 2360x1770.
+Dec 28 22:30:20.340: vmx| WSSCAN: reserved mem (in MB) min=32 max=3200 recommended=3200
+Dec 28 22:30:20.340: vmx|         hostMem=3328 maxAllowedAll=-1 maxAllowedVM=8192
+Dec 28 22:30:20.340: vmx|         totOverhead=16
+Dec 28 22:30:20.340: vmx| WSSCAN: used rec mem (in MB) 3200
+Dec 28 22:30:20.340: vmx| WSSCAN: Overhead 12093 paged 5341 nonpaged 4096 maxFBSize
+Dec 28 22:30:20.349: vmx| WSSCAN 1 1 638807 638807 819200 673453 50 0
+Dec 28 22:30:20.351: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.6.0.200907' 
+Dec 28 22:30:20.411: vmx| LOG failed to remove stats32-2 failed: The system cannot find the file specified
+Dec 28 22:30:20.412: vmx| LOG failed to remove stats64-2 failed: The system cannot find the file specified
+Dec 28 22:30:20.415: vmx| guestCpuFeatures = 0x500001f0
+Dec 28 22:30:20.415: vmx| APIC: Host Local APIC at 0xfee00000
+Dec 28 22:30:20.418: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000 .sdata:0x2c000 .statvars:0x2d000 .peer:0x2e000 .shared:0x54000 .bss:0x65000 .rodata:0x6c000 .text:0x77000 .kstatvars:0x3000 ,mmu-pae.vmm32 .rodata:0x75d6c .data:0x2bdb0 .peer:0x52928 .shared:0x639f0 .bss:0x6abc0 .text:0xc996c .comment:0x40000cf0 .statvars:0x2000 .kstatvars:0x2000 .scb:0x400035a0 .shared_meta:0x400034b0 .peer_meta:0x40000ba0 ,sharedmmu-none.vmm32 .text:0xd3834 .comment:0x40000dec ,pv-none.vmm32 .data:0x2bdcc .peer:0x1000 .shared:0x64300 .bss:0x6b120 .text:0xd3850 .comment:0x40000dfe .statvars:0x1000 .kstatvars:0x1000 .shared_meta:0x40003720 ,hv-none.vmm32 .data:0x2bdd0 .peer:0x1000 .shared:0x1000 .bss:0x6b19c .text:0xd3950 .comment:0x40000e46 .statvars:0x1000 .kstatvars:0x1000 ,buslogic-buslogic.vmm32 .shared:0x64448 .bss:0x1000 .text:0xd39b4 .comment:0x40000e58 .scb:0x400036c0 .shared_meta:0x400037b0 ,<MonSrcFile> .rodata:0x75d7c ]
+Dec 28 22:30:20.423: vmx| KHZEstimate 2520700
+Dec 28 22:30:20.423: vmx| MHZEstimate 2521
+Dec 28 22:30:20.423: vmx| NumVCPUs 1
+Dec 28 22:30:20.423: vmx| guestCPUID vendor: GenuntelineI
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000001, 0: 0x00010678 0x00010800 0x00000211 0x0febfbff
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:30:20.423: vmx| guestCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.423: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100800
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.424: vmx| guestCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:30:20.424: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Dec 28 22:30:20.424: vmx| UUID: location-UUID is 56 4d 25 ff f0 a7 7c 3a-7a a1 df 4a 78 3f dc 3f
+Dec 28 22:30:20.425: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.425: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:30:20.425: vmx| MM: Using partialmap, 4096 pages AC 0 CE 1 TM 0 DOHU 0
+Dec 28 22:30:20.426: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:30:20.426: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:30:20.431: vmx| MM: using 'C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem' as a paging file
+Dec 28 22:30:20.431: vmx| Msg_Reset:
+Dec 28 22:30:20.431: vmx| ----------------------------------------
+Dec 28 22:30:20.431: vmx| Opened paging file C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem
+Dec 28 22:30:20.431: vmx| Mapped mainmem as pageable
+Dec 28 22:30:20.431: vmx| MStat: Creating Stat vm.uptime
+Dec 28 22:30:20.431: vmx| MStat: Creating Stat vm.suspendTime
+Dec 28 22:30:20.431: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Dec 28 22:30:20.444: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:30:20.450: vmx| DISK: OPEN ide0:0 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' persistent R[(null)]
+Dec 28 22:30:20.515: vmx| DISKLIB-DSCPTR: Opened [0]: "vm.vmdk" (0xa)
+Dec 28 22:30:20.515: vmx| DISKLIB-LINK  : Opened 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' (0xa): monolithicSparse, 16777216 sectors / 8192 Mb.
+Dec 28 22:30:20.515: vmx| DISKLIB-LIB   : Opened "C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk" (flags 0xa). 26B14BC
+Dec 28 22:30:20.515: vmx| DiskGetGeometry: Reading of disk partition table
+Dec 28 22:30:20.516: vmx| DISK: OPEN 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' Geo (16383/16/63) BIOS Geo (0/0/0) freeSpace=24289Mb, ide
+Dec 28 22:30:20.517: vmx| Msg_Reset:
+Dec 28 22:30:20.517: vmx| ----------------------------------------
+Dec 28 22:30:20.517: vmx| TimeTracker host to guest rate conversion 270270799393987 @ 2520700000Hz -> 270270799393987 @ 2520700000Hz
+Dec 28 22:30:20.517: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Dec 28 22:30:20.518: vmx| USB: Initializing 'Generic' backend
+Dec 28 22:30:20.520: vmx| USBGW: Connected to HCMON version 2.3
+Dec 28 22:30:20.520: vmx| USB: Initializing 'Virtual Hub' backend
+Dec 28 22:30:20.520: vmx| USB: Initializing 'Virtual Mouse' backend
+Dec 28 22:30:20.521: vmx| Host display topology 1920x1200.
+Dec 28 22:30:20.521: vmx| SVGA using 2360x1770.
+Dec 28 22:30:20.523: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Dec 28 22:30:20.524: vmx| DISKUTIL: ide0:0 : capacity=16777216
+Dec 28 22:30:20.525: vmx| Host display topology 1920x1200 with 1 displays.
+Dec 28 22:30:20.525: vmx| SVGA using 2360x1770.
+Dec 28 22:30:20.526: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Dec 28 22:30:20.526: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Dec 28 22:30:20.526: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Dec 28 22:30:20.526: vmx| E1000: checksum cycles/kB: C=973 asm=689
+Dec 28 22:30:20.526: vmx| USB: Initializing 'UHCI' host controller
+Dec 28 22:30:20.526: vmx| MStat: Creating Stat vm.heartbeat
+Dec 28 22:30:20.527: vmx| DISKUTIL: ide0:0 : toolsVersion = 0
+Dec 28 22:30:20.527: vmx| DISKUTIL: Offline toolsVersion = 0
+Dec 28 22:30:20.527: vmx| Msg_Hint: msg.tools.toolsReminder (not sent)
+Dec 28 22:30:20.527: vmx| Do not forget to install the VMware Tools package inside this virtual machine: wait until your guest operating system finishes booting, then choose VM > Install VMware Tools… and follow the instructions.
+Dec 28 22:30:20.527: vmx| 
+Dec 28 22:30:20.527: vmx| ---------------------------------------
+Dec 28 22:30:20.527: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Dec 28 22:30:20.530: vmx| PTSC to VMI Wallclock (nsec) 270270830636108 @ 2520700000Hz -> 1293607820000000000 @ 1000000000Hz
+Dec 28 22:30:20.530: vmx| PTSC to VMI Wallclock (nsec) ((x * 3407757603) >> 33) + 1293500599453893970
+Dec 28 22:30:20.530: vmx| VirtualProtect MapProtectMem(0x2270000,0x1000) returns 0x1e7
+Dec 28 22:30:20.530: vmx| VirtualProtect MapProtectMem(0x2272000,0x0) returns 0x57
+Dec 28 22:30:20.530: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Dec 28 22:30:20.532: vmx| DnD rpc already set to 0
+Dec 28 22:30:20.532: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:30:20.545: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Dec 28 22:30:20.545: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Dec 28 22:30:20.547: mks| Async MKS thread is alive
+Dec 28 22:30:20.555: vmx| DnD rpc already set to 0
+Dec 28 22:30:20.555: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:30:20.560: vcpu-0| APIC: version = 0x14, max LVT = 5
+Dec 28 22:30:20.560: vcpu-0| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Dec 28 22:30:20.561: vcpu-0| guestCpuFeatures = 0x500001f0
+Dec 28 22:30:20.561: vcpu-0| Init modules.
+Dec 28 22:30:20.565: vcpu-0| CPU reset: hard
+Dec 28 22:30:20.603: vmx| serial0: dwProvSubType 1
+Dec 28 22:30:20.603: vmx| serial0: DATABITS_5 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: DATABITS_6 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: DATABITS_7 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: DATABITS_8 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: STOPBITS_10 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: STOPBITS_15 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: STOPBITS_20 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: PARITY_NONE supported: yes
+Dec 28 22:30:20.603: vmx| serial0: PARITY_ODD supported: yes
+Dec 28 22:30:20.603: vmx| serial0: PARITY_EVEN supported: yes
+Dec 28 22:30:20.603: vmx| serial0: PARITY_MARK supported: yes
+Dec 28 22:30:20.603: vmx| serial0: PARITY_SPACE supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_075 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_110 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_134_5 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_150 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_300 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_600 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_1200 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_1800 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_2400 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_4800 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_7200 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_9600 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_14400 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_19200 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_38400 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_56K supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_57600 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_115200 supported: yes
+Dec 28 22:30:20.603: vmx| serial0: BAUD_128K supported: no
+Dec 28 22:30:20.603: vmx| serial0: BAUD_USER supported: yes
+Dec 28 22:30:20.614: vmx| FLOPPYLIB-IMAGE: Invalid boot sector: signature ffff, sector size 512, sectors 2880
+Dec 28 22:30:20.615: vmx| FLOPPYLIB-IMAGE: Expected: signature aa55, sector size 512, sectors 2880
+Dec 28 22:30:20.615: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from image size.
+Dec 28 22:30:20.635: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from boot sector.
+Dec 28 22:30:20.647: mks| Connecting to window system.
+Dec 28 22:30:20.696: mks| KHBKL: Unable to parse keystring at: ''
+Dec 28 22:30:20.699: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:20.701: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:20.711: vcpu-0| sz=3059680
+Dec 28 22:30:20.714: vcpu-0| vmm32 initialized: Releasebuild-45731. cflags: 0x00000002.08000002.50000600.00000002
+Dec 28 22:30:20.716: vcpu-0| MonitorInitNumaUnmapVMM32
+Dec 28 22:30:20.965: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0x0) and 0xe8000000(0x0)
+Dec 28 22:30:20.972: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:30:20.984: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:30:20.991: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:30:20.993: vcpu-0| SVGA: Registering IOSpace at 0x10a0
+Dec 28 22:30:20.993: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:30:21.016: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.017: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.025: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.026: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.030: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.074: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.075: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.083: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.083: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.086: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:21.776: vcpu-0| VIDE: Curr CHS info cyls: 17475 heads: 15 sects: 63 lba_cap: 16777216
+Dec 28 22:30:22.659: vcpu-0| BIOS-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:30:22.833: vcpu-0| DISKUTIL: ide0:0 : toolsVersion = 0
+Dec 28 22:30:22.833: vcpu-0| DISKUTIL: Offline toolsVersion = 0
+Dec 28 22:30:22.842: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:22.843: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:30:22.912: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:30:22.912: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:30:22.912: vmx| VMXVmdbLoadUsbDevices: New set of 2 USB devices
+Dec 28 22:30:24.785: vcpu-0| SVGA: Unregistering IOSpace at 0x10a0
+Dec 28 22:30:24.785: vcpu-0| SVGA: Registering IOSpace at 0xfffffff0
+Dec 28 22:30:24.785: vcpu-0| SVGA: Unregistering IOSpace at 0xfffffff0
+Dec 28 22:30:24.785: vcpu-0| SVGA: Registering IOSpace at 0x10a0
+Dec 28 22:30:25.668: mks| SVGA: Remote display status changed, enabling local optimizations
+Dec 28 22:32:00.458: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:00.458: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:11.288: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff with reset
+Dec 28 22:32:11.288: vmx| 
+Dec 28 22:32:11.288: vmx| 
+Dec 28 22:32:11.288: vmx| VMXRequestReset
+Dec 28 22:32:11.288: vmx| Stopping VCPU threads...
+Dec 28 22:32:11.292: mks| Detaching from window system.
+Dec 28 22:32:11.293: mks| Async MKS thread is exiting
+Dec 28 22:32:11.293: vmx| DnD rpc already set to 0
+Dec 28 22:32:11.293: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Dec 28 22:32:11.293: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:11.293: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Dec 28 22:32:11.300: vmx| MKS local poweroff
+Dec 28 22:32:11.301: vmx| ide0:0: numIOs = 1 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+Dec 28 22:32:11.306: vmx| AIOWIN32: asyncOps=76 syncOps=24 bufSize=4Kb delayed=0 fixed=2 sgOp=16 sgOn=1
+Dec 28 22:32:11.322: vmx| WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0
+Dec 28 22:32:11.358: vmx| PowerOn
+Dec 28 22:32:11.358: vmx| Host: WIN32 highest NUMA node 0
+Dec 28 22:32:11.358: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Dec 28 22:32:11.362: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:32:11.369: vmx| HOST Windows version 6.1, build 7600, platform 2, "", SMP
+Dec 28 22:32:11.369: vmx| DICT --- USER PREFERENCES
+Dec 28 22:32:11.369: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Dec 28 22:32:11.369: vmx| DICT   pref.eula.0.buildNumber = 45731
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest0.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest0.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest0.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest1.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest1.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest1.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest2.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest2.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest2.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest3.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest3.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest3.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest4.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest4.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest4.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest5.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest5.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest5.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest6.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest6.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest6.user = 
+Dec 28 22:32:11.369: vmx| DICT     pref.mruDest7.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT  pref.mruDest7.destString = 
+Dec 28 22:32:11.369: vmx| DICT        pref.mruDest7.user = 
+Dec 28 22:32:11.369: vmx| DICT      pref.mruATS0.present = FALSE
+Dec 28 22:32:11.369: vmx| DICT    pref.mruATS0.atsString = 
+Dec 28 22:32:11.369: vmx| DICT       pref.mruATS0.domain = 
+Dec 28 22:32:11.369: vmx| DICT         pref.mruATS0.user = 
+Dec 28 22:32:11.369: vmx| DICT       pref.mruATS0.secure = FALSE
+Dec 28 22:32:11.369: vmx| DICT         pref.mruATS0.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS1.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS1.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS1.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS1.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS1.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS1.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS2.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS2.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS2.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS2.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS2.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS2.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS3.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS3.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS3.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS3.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS3.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS3.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS4.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS4.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS4.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS4.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS4.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS4.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS5.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS5.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS5.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS5.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS5.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS5.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS6.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS6.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS6.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS6.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS6.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS6.port = 0
+Dec 28 22:32:11.370: vmx| DICT      pref.mruATS7.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT    pref.mruATS7.atsString = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS7.domain = 
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS7.user = 
+Dec 28 22:32:11.370: vmx| DICT       pref.mruATS7.secure = FALSE
+Dec 28 22:32:11.370: vmx| DICT         pref.mruATS7.port = 0
+Dec 28 22:32:11.370: vmx| DICT       webUpdate.checkLast = 1290217323
+Dec 28 22:32:11.370: vmx| DICT webUpdate.lastCheck.status = done_updates
+Dec 28 22:32:11.370: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,VPLAY_PLAY,VPLAY_RECORD,VPLAY_STOP
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.currentObj.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.currentObj.type = vm
+Dec 28 22:32:11.370: vmx| DICT pref.ws.openedObj0.present = FALSE
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj0.name = Other
+Dec 28 22:32:11.370: vmx| DICT pref.ws.openedObj1.present = TRUE
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj1.type = vm
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj1.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj1.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj1.name = Other
+Dec 28 22:32:11.370: vmx| DICT  pref.ws.openedObj.maxNum = 2
+Dec 28 22:32:11.370: vmx| DICT       pref.placement.left = 288
+Dec 28 22:32:11.370: vmx| DICT        pref.placement.top = 247
+Dec 28 22:32:11.370: vmx| DICT      pref.placement.right = 1028
+Dec 28 22:32:11.370: vmx| DICT     pref.placement.bottom = 762
+Dec 28 22:32:11.370: vmx| DICT            pref.tip.index = 3
+Dec 28 22:32:11.370: vmx| DICT           hint.guestos.xp = FALSE
+Dec 28 22:32:11.370: vmx| DICT pref.ws.openedObj2.present = TRUE
+Dec 28 22:32:11.370: vmx| DICT   pref.ws.openedObj2.name = Other
+Dec 28 22:32:11.371: vmx| DICT pref.ws.openedObj3.present = FALSE
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj3.type = vm
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj3.path = /vm/#244e6069d31b4d02/
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj3.file = C:\Users\Ecco\Documents\Virtual Machines\LFS\Other Linux 2.6.x kernel.vmx
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj3.name = LFS
+Dec 28 22:32:11.371: vmx| DICT          pref.tip.startup = FALSE
+Dec 28 22:32:11.371: vmx| DICT          pref.view.navBar = FALSE
+Dec 28 22:32:11.371: vmx| DICT        hint.vmui.poweroff = FALSE
+Dec 28 22:32:11.371: vmx| DICT    hint.vmui.vmWizardHint = FALSE
+Dec 28 22:32:11.371: vmx| DICT            pref.view.tabs = FALSE
+Dec 28 22:32:11.371: vmx| DICT              pref.autoFit = TRUE
+Dec 28 22:32:11.371: vmx| DICT       pref.view.statusBar = TRUE
+Dec 28 22:32:11.371: vmx| DICT  pref.view.toolbars.power = TRUE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.snapshot = FALSE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.snapshot.position.newLine = FALSE
+Dec 28 22:32:11.371: vmx| DICT   pref.view.toolbars.view = TRUE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.view.position.newLine = FALSE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.vplay.position.newLine = FALSE
+Dec 28 22:32:11.371: vmx| DICT pref.autoFitGuestToWindow = FALSE
+Dec 28 22:32:11.371: vmx| DICT hint.mainmem.lazySnapshotHint = FALSE
+Dec 28 22:32:11.371: vmx| DICT     hint.tools.toolsImage = FALSE
+Dec 28 22:32:11.371: vmx| DICT pref.ws.openedObj4.present = FALSE
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj4.type = vm
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj4.path = /vm/#d7e9f9f6a803be5b/
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj4.file = C:\Users\Ecco\Documents\Virtual Machines\Windows 7\Windows Vista.vmx
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj4.name = Windows 7
+Dec 28 22:32:11.371: vmx| DICT pref.snapshotManager.left = 485
+Dec 28 22:32:11.371: vmx| DICT  pref.snapshotManager.top = 153
+Dec 28 22:32:11.371: vmx| DICT pref.snapshotManager.right = 1035
+Dec 28 22:32:11.371: vmx| DICT pref.snapshotManager.bottom = 633
+Dec 28 22:32:11.371: vmx| DICT    pref.view.navBar.width = 313
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj2.type = vm
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj2.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj2.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:11.371: vmx| DICT pref.ws.openedObj5.present = TRUE
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj5.type = vm
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj5.path = /vm/#860c8dc9c2c3c36e/
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj5.file = C:\Users\Ecco\Desktop\EOS\vmware\EOS.vmx
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj5.name = EOS
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj6.type = vm
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj6.path = /vm/#635e4b7c5ece80a6/
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj6.file = C:\Users\Ecco\Documents\Virtual Machines\Windows XP Professional\Windows XP Professional.vmx
+Dec 28 22:32:11.371: vmx| DICT   pref.ws.openedObj6.name = Windows XP Professional
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.power.position.ix = 1
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.power.position.length = 113
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.snapshot.position.ix = 3
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.view.position.ix = 2
+Dec 28 22:32:11.371: vmx| DICT pref.view.toolbars.view.position.length = 605
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.vplay.position.ix = 4
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.vplay.position.length = 75
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj7.type = vm
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj7.path = /vm/#85aa6214a9c163c8/
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj7.file = C:\Users\Ecco\Documents\Virtual Machines\Windows Server 2003 Standard Edition\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj7.name = Windows Server 2003 Standard Edition
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj8.type = vm
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj8.path = /vm/#8ca816d084928f76/
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj8.file = C:\Users\Ecco\Documents\Virtual Machines\fbstech\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj8.name = fbstech
+Dec 28 22:32:11.372: vmx| DICT  hint.tools.toolsReminder = FALSE
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj0.type = vm
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj0.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:11.372: vmx| DICT   pref.ws.openedObj0.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:11.372: vmx| DICT  pref.sharedFolder.maxNum = 2
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder0.vmPath = /vm/#29146c6eb01cb4a9/
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder0.guestName = Untitled-1
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder0.hostPath = C:\eos\build
+Dec 28 22:32:11.372: vmx| DICT           hint.vmui.reset = FALSE
+Dec 28 22:32:11.372: vmx| DICT     webUpdate.checkPeriod = manual
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7e5cf6d88b85f01a/
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder1.guestName = Untitled-1
+Dec 28 22:32:11.372: vmx| DICT pref.sharedFolder1.hostPath = C:\eos\build
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.power.items.count = 4
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.power.item0.id = POWER_OFF
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.power.item1.id = SUSPEND
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.power.item2.id = POWER_ON
+Dec 28 22:32:11.372: vmx| DICT pref.view.toolbars.power.item3.id = RESET
+Dec 28 22:32:11.372: vmx| DICT hint.mainmem.lazyResumeHint = FALSE
+Dec 28 22:32:11.372: vmx| DICT pref.fullscreen.toolbarPixels = 0
+Dec 28 22:32:11.372: vmx| DICT        pref.view.homepage = TRUE
+Dec 28 22:32:11.372: vmx| DICT  hint.mks.hostAlphaCursor = FALSE
+Dec 28 22:32:11.372: vmx| DICT --- USER DEFAULTS
+Dec 28 22:32:11.372: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:32:11.372: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:11.372: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:32:11.372: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:11.372: vmx| DICT --- COMMAND LINE
+Dec 28 22:32:11.372: vmx| DICT             gui.available = TRUE
+Dec 28 22:32:11.372: vmx| DICT --- CONFIGURATION
+Dec 28 22:32:11.372: vmx| DICT            config.version = 8
+Dec 28 22:32:11.372: vmx| DICT         virtualHW.version = 6
+Dec 28 22:32:11.372: vmx| DICT             scsi0.present = TRUE
+Dec 28 22:32:11.372: vmx| DICT                   memsize = 16
+Dec 28 22:32:11.372: vmx| DICT            ide0:0.present = TRUE
+Dec 28 22:32:11.372: vmx| DICT           ide0:0.fileName = vm.vmdk
+Dec 28 22:32:11.372: vmx| DICT            ide1:0.present = FALSE
+Dec 28 22:32:11.372: vmx| DICT           ide1:0.fileName = vm-0.vmdk
+Dec 28 22:32:11.372: vmx| DICT         ide1:0.deviceType = disk
+Dec 28 22:32:11.372: vmx| DICT        floppy0.autodetect = TRUE
+Dec 28 22:32:11.372: vmx| DICT         ethernet0.present = FALSE
+Dec 28 22:32:11.372: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Dec 28 22:32:11.372: vmx| DICT             sound.present = FALSE
+Dec 28 22:32:11.372: vmx| DICT            sound.fileName = -1
+Dec 28 22:32:11.372: vmx| DICT          sound.autodetect = TRUE
+Dec 28 22:32:11.372: vmx| DICT           svga.autodetect = TRUE
+Dec 28 22:32:11.372: vmx| DICT        pciBridge0.present = TRUE
+Dec 28 22:32:11.372: vmx| DICT        mks.keyboardFilter = allow
+Dec 28 22:32:11.372: vmx| DICT               displayName = Other
+Dec 28 22:32:11.372: vmx| DICT                   guestOS = other
+Dec 28 22:32:11.372: vmx| DICT                     nvram = vm.nvram
+Dec 28 22:32:11.372: vmx| DICT        deploymentPlatform = windows
+Dec 28 22:32:11.372: vmx| DICT virtualHW.productCompatibility = hosted
+Dec 28 22:32:11.372: vmx| DICT      tools.upgrade.policy = manual
+Dec 28 22:32:11.373: vmx| DICT         ide1:0.autodetect = TRUE
+Dec 28 22:32:11.373: vmx| DICT          floppy0.fileType = file
+Dec 28 22:32:11.373: vmx| DICT          floppy0.fileName = boot.img
+Dec 28 22:32:11.373: vmx| DICT      floppy0.clientDevice = FALSE
+Dec 28 22:32:11.373: vmx| DICT isolation.tools.hgfs.disable = TRUE
+Dec 28 22:32:11.373: vmx| DICT     ethernet0.addressType = generated
+Dec 28 22:32:11.373: vmx| DICT             uuid.location = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:11.373: vmx| DICT                 uuid.bios = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:11.373: vmx| DICT               ide0:0.redo = 
+Dec 28 22:32:11.373: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Dec 28 22:32:11.373: vmx| DICT       scsi0.pciSlotNumber = 16
+Dec 28 22:32:11.373: vmx| DICT   ethernet0.pciSlotNumber = -1
+Dec 28 22:32:11.373: vmx| DICT       sound.pciSlotNumber = -1
+Dec 28 22:32:11.373: vmx| DICT ethernet0.generatedAddress = 00:0c:29:8a:41:37
+Dec 28 22:32:11.373: vmx| DICT ethernet0.generatedAddressOffset = 0
+Dec 28 22:32:11.373: vmx| DICT        extendedConfigFile = vm.vmxf
+Dec 28 22:32:11.373: vmx| DICT           floppy0.present = TRUE
+Dec 28 22:32:11.373: vmx| DICT            fileSearchPath = .
+Dec 28 22:32:11.373: vmx| DICT    floppy0.startConnected = TRUE
+Dec 28 22:32:11.373: vmx| DICT  ethernet0.startConnected = TRUE
+Dec 28 22:32:11.373: vmx| DICT       tools.remindInstall = TRUE
+Dec 28 22:32:11.373: vmx| DICT                   monitor = release
+Dec 28 22:32:11.373: vmx| DICT monitor_control.log_vmsample = FALSE
+Dec 28 22:32:11.373: vmx| DICT           serial0.present = TRUE
+Dec 28 22:32:11.373: vmx| DICT    serial0.yieldOnMsrRead = FALSE
+Dec 28 22:32:11.373: vmx| DICT          serial0.fileType = device
+Dec 28 22:32:11.373: vmx| DICT          serial0.fileName = COM1
+Dec 28 22:32:11.373: vmx| DICT       serial0.tryNoRxLoss = TRUE
+Dec 28 22:32:11.373: vmx| DICT           scsi0:0.present = FALSE
+Dec 28 22:32:11.373: vmx| DICT          scsi0:0.fileName = 
+Dec 28 22:32:11.373: vmx| DICT        scsi0:0.deviceType = disk
+Dec 28 22:32:11.373: vmx| DICT              scsi0:0.redo = 
+Dec 28 22:32:11.373: vmx| DICT               usb.present = TRUE
+Dec 28 22:32:11.373: vmx| DICT              ehci.present = FALSE
+Dec 28 22:32:11.373: vmx| DICT        ehci.pciSlotNumber = -1
+Dec 28 22:32:11.373: vmx| DICT               ide1:0.redo = 
+Dec 28 22:32:11.373: vmx| DICT        gui.exitAtPowerOff = FALSE
+Dec 28 22:32:11.373: vmx| DICT      gui.powerOnAtStartup = TRUE
+Dec 28 22:32:11.373: vmx| DICT             svga.maxWidth = 1024
+Dec 28 22:32:11.373: vmx| DICT            svga.maxHeight = 768
+Dec 28 22:32:11.373: vmx| DICT             svga.vramSize = 3145728
+Dec 28 22:32:11.373: vmx| DICT      disable_acceleration = FALSE
+Dec 28 22:32:11.373: vmx| DICT     serial0.pipe.endPoint = server
+Dec 28 22:32:11.373: vmx| DICT  ethernet0.connectionType = bridged
+Dec 28 22:32:11.373: vmx| DICT            ide0:1.present = FALSE
+Dec 28 22:32:11.373: vmx| DICT           ide0:1.fileName = auto detect
+Dec 28 22:32:11.373: vmx| DICT               ide0:1.redo = 
+Dec 28 22:32:11.373: vmx| DICT         ide0:1.autodetect = TRUE
+Dec 28 22:32:11.373: vmx| DICT         ide0:1.deviceType = cdrom-raw
+Dec 28 22:32:11.373: vmx| DICT            ide1:1.present = FALSE
+Dec 28 22:32:11.373: vmx| DICT           ide1:1.fileName = 
+Dec 28 22:32:11.373: vmx| DICT               ide1:1.redo = 
+Dec 28 22:32:11.373: vmx| DICT         ide0:0.autodetect = TRUE
+Dec 28 22:32:11.373: vmx| DICT         ide0:0.deviceType = disk
+Dec 28 22:32:11.373: vmx| DICT         ide1:1.autodetect = TRUE
+Dec 28 22:32:11.373: vmx| DICT         ide1:1.deviceType = disk
+Dec 28 22:32:11.373: vmx| DICT     ide1:1.startConnected = FALSE
+Dec 28 22:32:11.373: vmx| DICT        checkpoint.vmState = 
+Dec 28 22:32:11.373: vmx| DICT    serial0.startConnected = TRUE
+Dec 28 22:32:11.373: vmx| DICT isolation.tools.dnd.disable = TRUE
+Dec 28 22:32:11.373: vmx| DICT isolation.tools.copy.disable = TRUE
+Dec 28 22:32:11.373: vmx| DICT isolation.tools.paste.disable = TRUE
+Dec 28 22:32:11.373: vmx| DICT         snapshot.disabled = TRUE
+Dec 28 22:32:11.374: vmx| DICT           snapshot.action = keep
+Dec 28 22:32:11.374: vmx| DICT           floppy1.present = TRUE
+Dec 28 22:32:11.374: vmx| DICT          floppy1.fileType = file
+Dec 28 22:32:11.374: vmx| DICT          floppy1.fileName = kernel.img
+Dec 28 22:32:11.374: vmx| DICT      floppy1.clientDevice = FALSE
+Dec 28 22:32:11.374: vmx| DICT            msg.autoAnswer = TRUE
+Dec 28 22:32:11.374: vmx| DICT      msg.serial.file.open = Append
+Dec 28 22:32:11.374: vmx| DICT   usb.autoConnect.device0 = 
+Dec 28 22:32:11.374: vmx| DICT --- USER DEFAULTS
+Dec 28 22:32:11.374: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:32:11.374: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:11.374: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:32:11.374: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:11.374: vmx| DICT --- GLOBAL SETTINGS
+Dec 28 22:32:11.392: vmx| Host display topology 1920x1200.
+Dec 28 22:32:11.392: vmx| SVGA using 2360x1770.
+Dec 28 22:32:11.393: vmx| WSSCAN: reserved mem (in MB) min=32 max=3200 recommended=3200
+Dec 28 22:32:11.393: vmx|         hostMem=3328 maxAllowedAll=-1 maxAllowedVM=8192
+Dec 28 22:32:11.393: vmx|         totOverhead=16
+Dec 28 22:32:11.393: vmx| WSSCAN: used rec mem (in MB) 3200
+Dec 28 22:32:11.393: vmx| WSSCAN: Overhead 12093 paged 5341 nonpaged 4096 maxFBSize
+Dec 28 22:32:11.404: vmx| WSSCAN 1 1 638807 638807 819200 670869 50 0
+Dec 28 22:32:11.406: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.6.0.200907' 
+Dec 28 22:32:11.422: vmx| APIC: Host Local APIC at 0xfee00000
+Dec 28 22:32:11.425: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000 .sdata:0x2c000 .statvars:0x2d000 .peer:0x2e000 .shared:0x54000 .bss:0x65000 .rodata:0x6c000 .text:0x77000 .kstatvars:0x3000 ,mmu-pae.vmm32 .rodata:0x75d6c .data:0x2bdb0 .peer:0x52928 .shared:0x639f0 .bss:0x6abc0 .text:0xc996c .comment:0x40000cf0 .statvars:0x2000 .kstatvars:0x2000 .scb:0x400035a0 .shared_meta:0x400034b0 .peer_meta:0x40000ba0 ,sharedmmu-none.vmm32 .text:0xd3834 .comment:0x40000dec ,pv-none.vmm32 .data:0x2bdcc .peer:0x1000 .shared:0x64300 .bss:0x6b120 .text:0xd3850 .comment:0x40000dfe .statvars:0x1000 .kstatvars:0x1000 .shared_meta:0x40003720 ,hv-none.vmm32 .data:0x2bdd0 .peer:0x1000 .shared:0x1000 .bss:0x6b19c .text:0xd3950 .comment:0x40000e46 .statvars:0x1000 .kstatvars:0x1000 ,buslogic-buslogic.vmm32 .shared:0x64448 .bss:0x1000 .text:0xd39b4 .comment:0x40000e58 .scb:0x400036c0 .shared_meta:0x400037b0 ,<MonSrcFile> .rodata:0x75d7c ]
+Dec 28 22:32:11.430: vmx| KHZEstimate 2520700
+Dec 28 22:32:11.430: vmx| MHZEstimate 2521
+Dec 28 22:32:11.430: vmx| NumVCPUs 1
+Dec 28 22:32:11.431: vmx| guestCPUID vendor: GenuntelineI
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000001, 0: 0x00010678 0x00010800 0x00000211 0x0febfbff
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:32:11.431: vmx| guestCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100800
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.431: vmx| guestCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:11.432: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Dec 28 22:32:11.432: vmx| UUID: location-UUID is 56 4d 25 ff f0 a7 7c 3a-7a a1 df 4a 78 3f dc 3f
+Dec 28 22:32:11.432: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:11.432: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:11.433: vmx| MM: Using partialmap, 4096 pages AC 0 CE 1 TM 0 DOHU 0
+Dec 28 22:32:11.433: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:11.433: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:11.438: vmx| MM: using 'C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem' as a paging file
+Dec 28 22:32:11.438: vmx| Msg_Reset:
+Dec 28 22:32:11.438: vmx| ----------------------------------------
+Dec 28 22:32:11.438: vmx| Opened paging file C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem
+Dec 28 22:32:11.438: vmx| Mapped mainmem as pageable
+Dec 28 22:32:11.438: vmx| MStat: Creating Stat vm.uptime
+Dec 28 22:32:11.438: vmx| MStat: Creating Stat vm.suspendTime
+Dec 28 22:32:11.438: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Dec 28 22:32:11.447: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:32:11.455: vmx| DISK: OPEN ide0:0 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' persistent R[(null)]
+Dec 28 22:32:11.524: vmx| DISKLIB-DSCPTR: Opened [0]: "vm.vmdk" (0xa)
+Dec 28 22:32:11.525: vmx| DISKLIB-LINK  : Opened 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' (0xa): monolithicSparse, 16777216 sectors / 8192 Mb.
+Dec 28 22:32:11.525: vmx| DISKLIB-LIB   : Opened "C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk" (flags 0xa). 26D8EF4
+Dec 28 22:32:11.525: vmx| DiskGetGeometry: Reading of disk partition table
+Dec 28 22:32:11.526: vmx| DISK: OPEN 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' Geo (16383/16/63) BIOS Geo (0/0/0) freeSpace=24285Mb, ide
+Dec 28 22:32:11.527: vmx| Msg_Reset:
+Dec 28 22:32:11.527: vmx| ----------------------------------------
+Dec 28 22:32:11.527: vmx| TimeTracker host to guest rate conversion 270550616891908 @ 2520700000Hz -> 270550616891908 @ 2520700000Hz
+Dec 28 22:32:11.527: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Dec 28 22:32:11.527: vmx| USB: Initializing 'Generic' backend
+Dec 28 22:32:11.529: vmx| USBGW: Connected to HCMON version 2.3
+Dec 28 22:32:11.530: vmx| USB: Initializing 'Virtual Hub' backend
+Dec 28 22:32:11.530: vmx| USB: Initializing 'Virtual Mouse' backend
+Dec 28 22:32:11.530: vmx| Host display topology 1920x1200.
+Dec 28 22:32:11.530: vmx| SVGA using 2360x1770.
+Dec 28 22:32:11.532: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Dec 28 22:32:11.534: vmx| DISKUTIL: ide0:0 : capacity=16777216
+Dec 28 22:32:11.535: vmx| Host display topology 1920x1200 with 1 displays.
+Dec 28 22:32:11.535: vmx| SVGA using 2360x1770.
+Dec 28 22:32:11.535: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Dec 28 22:32:11.535: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Dec 28 22:32:11.535: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Dec 28 22:32:11.535: vmx| E1000: checksum cycles/kB: C=968 asm=666
+Dec 28 22:32:11.535: vmx| USB: Initializing 'UHCI' host controller
+Dec 28 22:32:11.536: vmx| MStat: Creating Stat vm.heartbeat
+Dec 28 22:32:11.536: vmx| DISKUTIL: ide0:0 : toolsVersion = 0
+Dec 28 22:32:11.536: vmx| DISKUTIL: Offline toolsVersion = 0
+Dec 28 22:32:11.537: vmx| Msg_Hint: msg.tools.toolsReminder (not sent)
+Dec 28 22:32:11.537: vmx| Do not forget to install the VMware Tools package inside this virtual machine: wait until your guest operating system finishes booting, then choose VM > Install VMware Tools… and follow the instructions.
+Dec 28 22:32:11.537: vmx| 
+Dec 28 22:32:11.537: vmx| ---------------------------------------
+Dec 28 22:32:11.537: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Dec 28 22:32:11.538: vmx| PTSC to VMI Wallclock (nsec) 270550646102383 @ 2520700000Hz -> 1293607931000000000 @ 1000000000Hz
+Dec 28 22:32:11.538: vmx| PTSC to VMI Wallclock (nsec) ((x * 3407757603) >> 33) + 1293500599446845846
+Dec 28 22:32:11.539: vmx| VirtualProtect MapProtectMem(0x20d0000,0x1000) returns 0x1e7
+Dec 28 22:32:11.539: vmx| VirtualProtect MapProtectMem(0x20d2000,0x0) returns 0x57
+Dec 28 22:32:11.540: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Dec 28 22:32:11.545: vmx| DnD rpc already set to 0
+Dec 28 22:32:11.545: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:11.553: vmx| VMXVmdbLoadUsbDevices: New set of 0 USB devices
+Dec 28 22:32:11.553: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Dec 28 22:32:11.553: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Dec 28 22:32:11.554: mks| Async MKS thread is alive
+Dec 28 22:32:11.555: vcpu-0| APIC: version = 0x14, max LVT = 5
+Dec 28 22:32:11.555: vcpu-0| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Dec 28 22:32:11.560: vmx| DnD rpc already set to 0
+Dec 28 22:32:11.560: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:11.560: vcpu-0| guestCpuFeatures = 0x500001f0
+Dec 28 22:32:11.561: vcpu-0| Init modules.
+Dec 28 22:32:11.566: vcpu-0| CPU reset: hard
+Dec 28 22:32:11.566: vmx| serial0: dwProvSubType 1
+Dec 28 22:32:11.566: vmx| serial0: DATABITS_5 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: DATABITS_6 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: DATABITS_7 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: DATABITS_8 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: STOPBITS_10 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: STOPBITS_15 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: STOPBITS_20 supported: yes
+Dec 28 22:32:11.566: vmx| serial0: PARITY_NONE supported: yes
+Dec 28 22:32:11.566: vmx| serial0: PARITY_ODD supported: yes
+Dec 28 22:32:11.566: vmx| serial0: PARITY_EVEN supported: yes
+Dec 28 22:32:11.566: vmx| serial0: PARITY_MARK supported: yes
+Dec 28 22:32:11.566: vmx| serial0: PARITY_SPACE supported: yes
+Dec 28 22:32:11.566: vmx| serial0: BAUD_075 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_110 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_134_5 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_150 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_300 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_600 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_1200 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_1800 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_2400 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_4800 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_7200 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_9600 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_14400 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_19200 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_38400 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_56K supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_57600 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_115200 supported: yes
+Dec 28 22:32:11.567: vmx| serial0: BAUD_128K supported: no
+Dec 28 22:32:11.567: vmx| serial0: BAUD_USER supported: yes
+Dec 28 22:32:11.582: vmx| FLOPPYLIB-IMAGE: Invalid boot sector: signature ffff, sector size 512, sectors 2880
+Dec 28 22:32:11.582: vmx| FLOPPYLIB-IMAGE: Expected: signature aa55, sector size 512, sectors 2880
+Dec 28 22:32:11.582: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from image size.
+Dec 28 22:32:11.614: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from boot sector.
+Dec 28 22:32:11.626: vcpu-0| sz=3059680
+Dec 28 22:32:11.629: vcpu-0| vmm32 initialized: Releasebuild-45731. cflags: 0x00000002.08000002.50000600.00000002
+Dec 28 22:32:11.631: vcpu-0| MonitorInitNumaUnmapVMM32
+Dec 28 22:32:11.643: mks| Connecting to window system.
+Dec 28 22:32:11.664: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.666: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.701: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.883: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0x0) and 0xe8000000(0x0)
+Dec 28 22:32:11.891: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:11.900: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:11.907: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:11.910: vcpu-0| SVGA: Registering IOSpace at 0x10a0
+Dec 28 22:32:11.910: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:11.939: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.940: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.994: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:11.995: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:12.002: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:12.005: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:12.008: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:12.697: vcpu-0| VIDE: Curr CHS info cyls: 17475 heads: 15 sects: 63 lba_cap: 16777216
+Dec 28 22:32:13.621: vcpu-0| BIOS-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:13.863: vcpu-0| DISKUTIL: ide0:0 : toolsVersion = 0
+Dec 28 22:32:13.863: vcpu-0| DISKUTIL: Offline toolsVersion = 0
+Dec 28 22:32:13.874: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:13.875: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:14.031: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:14.031: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:14.031: vmx| VMXVmdbLoadUsbDevices: New set of 2 USB devices
+Dec 28 22:32:15.692: vcpu-0| SVGA: Unregistering IOSpace at 0x10a0
+Dec 28 22:32:15.692: vcpu-0| SVGA: Registering IOSpace at 0xfffffff0
+Dec 28 22:32:15.692: vcpu-0| SVGA: Unregistering IOSpace at 0xfffffff0
+Dec 28 22:32:15.692: vcpu-0| SVGA: Registering IOSpace at 0x10a0
+Dec 28 22:32:16.189: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:16.189: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:34.458: vmx| USB: Connecting device 0xe30000000ea02168
+Dec 28 22:32:34.458: vmx| Msg_Hint: msg.usb.generic.stopDevice (not sent)
+Dec 28 22:32:34.458: vmx| A USB device is about to be unplugged from the host and connected to this virtual machine. It will first be stopped to enable safe removal. With some devices, the host may display the message "The device can now safely be removed."
+Dec 28 22:32:34.458: vmx| 
+Dec 28 22:32:34.458: vmx| ---------------------------------------
+Dec 28 22:32:34.484: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:34.484: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:35.572: usbEnum| USBG: CONNREQ: Dequeued head request after 1114 ms for [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:35.572: usbEnum| Msg_Hint: msg.usb.hcAutoConnect (not sent)
+Dec 28 22:32:35.572: usbEnum| The device "Ours Removable Disk" was unable to connect to its ideal host controller. An attempt will be made to connect this device to the best available host controller. This may result in an undefined behavior for this device.
+Dec 28 22:32:35.572: usbEnum| ---------------------------------------
+Dec 28 22:32:35.572: usbEnum| USB: Automatically connecting virtual hub
+Dec 28 22:32:35.572: usbEnum| USB: Connecting device 0xc00000010e0f0002
+Dec 28 22:32:35.572: usbEnum| USB: Adding autoconnect pattern [path:1/3/0 autoclean:1] in slot 0
+Dec 28 22:32:35.573: usbEnum| Msg_Reset:
+Dec 28 22:32:35.573: usbEnum| ----------------------------------------
+Dec 28 22:32:35.574: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:35.574: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:35.574: vmx| USB: Device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage] should already be connected
+Dec 28 22:32:35.574: vmx| VMXVmdbLoadUsbDevices: New set of 2 USB devices
+Dec 28 22:32:36.649: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:36.649: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:36.649: vmx| USB: Device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage] should already be connected
+Dec 28 22:32:37.712: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff with reset
+Dec 28 22:32:37.712: vmx| 
+Dec 28 22:32:37.712: vmx| 
+Dec 28 22:32:37.712: vmx| VMXRequestReset
+Dec 28 22:32:37.712: vmx| Stopping VCPU threads...
+Dec 28 22:32:37.722: mks| Detaching from window system.
+Dec 28 22:32:37.723: mks| Async MKS thread is exiting
+Dec 28 22:32:37.723: vmx| DnD rpc already set to 0
+Dec 28 22:32:37.723: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Dec 28 22:32:37.723: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:37.723: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Dec 28 22:32:37.726: vmx| USB: Disconnecting device 0xe30000000ea02168
+Dec 28 22:32:37.753: vmx| USB: Disconnecting device 0xc00000010e0f0002
+Dec 28 22:32:37.754: vmx| MKS local poweroff
+Dec 28 22:32:37.755: vmx| ide0:0: numIOs = 1 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+Dec 28 22:32:37.758: vmx| AIOWIN32: asyncOps=76 syncOps=24 bufSize=4Kb delayed=0 fixed=2 sgOp=16 sgOn=1
+Dec 28 22:32:37.761: vmx| WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0
+Dec 28 22:32:37.790: vmx| PowerOn
+Dec 28 22:32:37.790: vmx| Host: WIN32 highest NUMA node 0
+Dec 28 22:32:37.790: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Dec 28 22:32:37.794: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:32:37.802: vmx| HOST Windows version 6.1, build 7600, platform 2, "", SMP
+Dec 28 22:32:37.802: vmx| DICT --- USER PREFERENCES
+Dec 28 22:32:37.802: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Dec 28 22:32:37.802: vmx| DICT   pref.eula.0.buildNumber = 45731
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest0.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest0.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest0.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest1.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest1.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest1.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest2.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest2.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest2.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest3.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest3.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest3.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest4.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest4.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest4.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest5.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest5.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest5.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest6.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest6.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest6.user = 
+Dec 28 22:32:37.802: vmx| DICT     pref.mruDest7.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT  pref.mruDest7.destString = 
+Dec 28 22:32:37.802: vmx| DICT        pref.mruDest7.user = 
+Dec 28 22:32:37.802: vmx| DICT      pref.mruATS0.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT    pref.mruATS0.atsString = 
+Dec 28 22:32:37.802: vmx| DICT       pref.mruATS0.domain = 
+Dec 28 22:32:37.802: vmx| DICT         pref.mruATS0.user = 
+Dec 28 22:32:37.802: vmx| DICT       pref.mruATS0.secure = FALSE
+Dec 28 22:32:37.802: vmx| DICT         pref.mruATS0.port = 0
+Dec 28 22:32:37.802: vmx| DICT      pref.mruATS1.present = FALSE
+Dec 28 22:32:37.802: vmx| DICT    pref.mruATS1.atsString = 
+Dec 28 22:32:37.802: vmx| DICT       pref.mruATS1.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS1.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS1.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS1.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS2.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS2.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS2.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS2.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS2.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS2.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS3.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS3.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS3.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS3.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS3.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS3.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS4.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS4.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS4.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS4.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS4.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS4.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS5.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS5.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS5.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS5.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS5.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS5.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS6.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS6.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS6.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS6.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS6.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS6.port = 0
+Dec 28 22:32:37.803: vmx| DICT      pref.mruATS7.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT    pref.mruATS7.atsString = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS7.domain = 
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS7.user = 
+Dec 28 22:32:37.803: vmx| DICT       pref.mruATS7.secure = FALSE
+Dec 28 22:32:37.803: vmx| DICT         pref.mruATS7.port = 0
+Dec 28 22:32:37.803: vmx| DICT       webUpdate.checkLast = 1290217323
+Dec 28 22:32:37.803: vmx| DICT webUpdate.lastCheck.status = done_updates
+Dec 28 22:32:37.803: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,VPLAY_PLAY,VPLAY_RECORD,VPLAY_STOP
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.currentObj.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.currentObj.type = vm
+Dec 28 22:32:37.803: vmx| DICT pref.ws.openedObj0.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj0.name = Other
+Dec 28 22:32:37.803: vmx| DICT pref.ws.openedObj1.present = TRUE
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj1.type = vm
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj1.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj1.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj1.name = Other
+Dec 28 22:32:37.803: vmx| DICT  pref.ws.openedObj.maxNum = 2
+Dec 28 22:32:37.803: vmx| DICT       pref.placement.left = 288
+Dec 28 22:32:37.803: vmx| DICT        pref.placement.top = 247
+Dec 28 22:32:37.803: vmx| DICT      pref.placement.right = 1028
+Dec 28 22:32:37.803: vmx| DICT     pref.placement.bottom = 762
+Dec 28 22:32:37.803: vmx| DICT            pref.tip.index = 3
+Dec 28 22:32:37.803: vmx| DICT           hint.guestos.xp = FALSE
+Dec 28 22:32:37.803: vmx| DICT pref.ws.openedObj2.present = TRUE
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj2.name = Other
+Dec 28 22:32:37.803: vmx| DICT pref.ws.openedObj3.present = FALSE
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj3.type = vm
+Dec 28 22:32:37.803: vmx| DICT   pref.ws.openedObj3.path = /vm/#244e6069d31b4d02/
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj3.file = C:\Users\Ecco\Documents\Virtual Machines\LFS\Other Linux 2.6.x kernel.vmx
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj3.name = LFS
+Dec 28 22:32:37.804: vmx| DICT          pref.tip.startup = FALSE
+Dec 28 22:32:37.804: vmx| DICT          pref.view.navBar = FALSE
+Dec 28 22:32:37.804: vmx| DICT        hint.vmui.poweroff = FALSE
+Dec 28 22:32:37.804: vmx| DICT    hint.vmui.vmWizardHint = FALSE
+Dec 28 22:32:37.804: vmx| DICT            pref.view.tabs = FALSE
+Dec 28 22:32:37.804: vmx| DICT              pref.autoFit = TRUE
+Dec 28 22:32:37.804: vmx| DICT       pref.view.statusBar = TRUE
+Dec 28 22:32:37.804: vmx| DICT  pref.view.toolbars.power = TRUE
+Dec 28 22:32:37.804: vmx| DICT pref.view.toolbars.snapshot = FALSE
+Dec 28 22:32:37.804: vmx| DICT pref.view.toolbars.snapshot.position.newLine = FALSE
+Dec 28 22:32:37.804: vmx| DICT   pref.view.toolbars.view = TRUE
+Dec 28 22:32:37.804: vmx| DICT pref.view.toolbars.view.position.newLine = FALSE
+Dec 28 22:32:37.804: vmx| DICT pref.view.toolbars.vplay.position.newLine = FALSE
+Dec 28 22:32:37.804: vmx| DICT pref.autoFitGuestToWindow = FALSE
+Dec 28 22:32:37.804: vmx| DICT hint.mainmem.lazySnapshotHint = FALSE
+Dec 28 22:32:37.804: vmx| DICT     hint.tools.toolsImage = FALSE
+Dec 28 22:32:37.804: vmx| DICT pref.ws.openedObj4.present = FALSE
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj4.type = vm
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj4.path = /vm/#d7e9f9f6a803be5b/
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj4.file = C:\Users\Ecco\Documents\Virtual Machines\Windows 7\Windows Vista.vmx
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj4.name = Windows 7
+Dec 28 22:32:37.804: vmx| DICT pref.snapshotManager.left = 485
+Dec 28 22:32:37.804: vmx| DICT  pref.snapshotManager.top = 153
+Dec 28 22:32:37.804: vmx| DICT pref.snapshotManager.right = 1035
+Dec 28 22:32:37.804: vmx| DICT pref.snapshotManager.bottom = 633
+Dec 28 22:32:37.804: vmx| DICT    pref.view.navBar.width = 313
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj2.type = vm
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj2.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj2.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:37.804: vmx| DICT pref.ws.openedObj5.present = TRUE
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj5.type = vm
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj5.path = /vm/#860c8dc9c2c3c36e/
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj5.file = C:\Users\Ecco\Desktop\EOS\vmware\EOS.vmx
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj5.name = EOS
+Dec 28 22:32:37.804: vmx| DICT   pref.ws.openedObj6.type = vm
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj6.path = /vm/#635e4b7c5ece80a6/
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj6.file = C:\Users\Ecco\Documents\Virtual Machines\Windows XP Professional\Windows XP Professional.vmx
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj6.name = Windows XP Professional
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.power.position.ix = 1
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.power.position.length = 113
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.snapshot.position.ix = 3
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.view.position.ix = 2
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.view.position.length = 605
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.vplay.position.ix = 4
+Dec 28 22:32:37.805: vmx| DICT pref.view.toolbars.vplay.position.length = 75
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj7.type = vm
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj7.path = /vm/#85aa6214a9c163c8/
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj7.file = C:\Users\Ecco\Documents\Virtual Machines\Windows Server 2003 Standard Edition\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj7.name = Windows Server 2003 Standard Edition
+Dec 28 22:32:37.805: vmx| DICT   pref.ws.openedObj8.type = vm
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj8.path = /vm/#8ca816d084928f76/
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj8.file = C:\Users\Ecco\Documents\Virtual Machines\fbstech\Windows Server 2003 Standard Edition.vmx
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj8.name = fbstech
+Dec 28 22:32:37.806: vmx| DICT  hint.tools.toolsReminder = FALSE
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj0.type = vm
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj0.path = /vm/#247d25276ecd1104/
+Dec 28 22:32:37.806: vmx| DICT   pref.ws.openedObj0.file = C:\Users\Ecco\Desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:37.806: vmx| DICT  pref.sharedFolder.maxNum = 2
+Dec 28 22:32:37.806: vmx| DICT pref.sharedFolder0.vmPath = /vm/#29146c6eb01cb4a9/
+Dec 28 22:32:37.806: vmx| DICT pref.sharedFolder0.guestName = Untitled-1
+Dec 28 22:32:37.806: vmx| DICT pref.sharedFolder0.hostPath = C:\eos\build
+Dec 28 22:32:37.806: vmx| DICT           hint.vmui.reset = FALSE
+Dec 28 22:32:37.806: vmx| DICT     webUpdate.checkPeriod = manual
+Dec 28 22:32:37.806: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7e5cf6d88b85f01a/
+Dec 28 22:32:37.807: vmx| DICT pref.sharedFolder1.guestName = Untitled-1
+Dec 28 22:32:37.807: vmx| DICT pref.sharedFolder1.hostPath = C:\eos\build
+Dec 28 22:32:37.807: vmx| DICT pref.view.toolbars.power.items.count = 4
+Dec 28 22:32:37.807: vmx| DICT pref.view.toolbars.power.item0.id = POWER_OFF
+Dec 28 22:32:37.807: vmx| DICT pref.view.toolbars.power.item1.id = SUSPEND
+Dec 28 22:32:37.807: vmx| DICT pref.view.toolbars.power.item2.id = POWER_ON
+Dec 28 22:32:37.807: vmx| DICT pref.view.toolbars.power.item3.id = RESET
+Dec 28 22:32:37.807: vmx| DICT hint.mainmem.lazyResumeHint = FALSE
+Dec 28 22:32:37.807: vmx| DICT pref.fullscreen.toolbarPixels = 0
+Dec 28 22:32:37.807: vmx| DICT        pref.view.homepage = TRUE
+Dec 28 22:32:37.807: vmx| DICT  hint.mks.hostAlphaCursor = FALSE
+Dec 28 22:32:37.807: vmx| DICT --- USER DEFAULTS
+Dec 28 22:32:37.807: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:32:37.807: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:37.807: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:32:37.807: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:37.807: vmx| DICT --- COMMAND LINE
+Dec 28 22:32:37.807: vmx| DICT             gui.available = TRUE
+Dec 28 22:32:37.807: vmx| DICT --- CONFIGURATION
+Dec 28 22:32:37.807: vmx| DICT            config.version = 8
+Dec 28 22:32:37.807: vmx| DICT         virtualHW.version = 6
+Dec 28 22:32:37.807: vmx| DICT             scsi0.present = TRUE
+Dec 28 22:32:37.807: vmx| DICT                   memsize = 16
+Dec 28 22:32:37.807: vmx| DICT            ide0:0.present = TRUE
+Dec 28 22:32:37.807: vmx| DICT           ide0:0.fileName = vm.vmdk
+Dec 28 22:32:37.807: vmx| DICT            ide1:0.present = FALSE
+Dec 28 22:32:37.807: vmx| DICT           ide1:0.fileName = vm-0.vmdk
+Dec 28 22:32:37.807: vmx| DICT         ide1:0.deviceType = disk
+Dec 28 22:32:37.807: vmx| DICT        floppy0.autodetect = TRUE
+Dec 28 22:32:37.807: vmx| DICT         ethernet0.present = FALSE
+Dec 28 22:32:37.807: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Dec 28 22:32:37.807: vmx| DICT             sound.present = FALSE
+Dec 28 22:32:37.807: vmx| DICT            sound.fileName = -1
+Dec 28 22:32:37.807: vmx| DICT          sound.autodetect = TRUE
+Dec 28 22:32:37.807: vmx| DICT           svga.autodetect = TRUE
+Dec 28 22:32:37.807: vmx| DICT        pciBridge0.present = TRUE
+Dec 28 22:32:37.807: vmx| DICT        mks.keyboardFilter = allow
+Dec 28 22:32:37.807: vmx| DICT               displayName = Other
+Dec 28 22:32:37.807: vmx| DICT                   guestOS = other
+Dec 28 22:32:37.807: vmx| DICT                     nvram = vm.nvram
+Dec 28 22:32:37.807: vmx| DICT        deploymentPlatform = windows
+Dec 28 22:32:37.807: vmx| DICT virtualHW.productCompatibility = hosted
+Dec 28 22:32:37.807: vmx| DICT      tools.upgrade.policy = manual
+Dec 28 22:32:37.807: vmx| DICT         ide1:0.autodetect = TRUE
+Dec 28 22:32:37.807: vmx| DICT          floppy0.fileType = file
+Dec 28 22:32:37.807: vmx| DICT          floppy0.fileName = boot.img
+Dec 28 22:32:37.807: vmx| DICT      floppy0.clientDevice = FALSE
+Dec 28 22:32:37.807: vmx| DICT isolation.tools.hgfs.disable = TRUE
+Dec 28 22:32:37.807: vmx| DICT     ethernet0.addressType = generated
+Dec 28 22:32:37.807: vmx| DICT             uuid.location = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:37.807: vmx| DICT                 uuid.bios = 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:37.807: vmx| DICT               ide0:0.redo = 
+Dec 28 22:32:37.807: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Dec 28 22:32:37.807: vmx| DICT       scsi0.pciSlotNumber = 16
+Dec 28 22:32:37.807: vmx| DICT   ethernet0.pciSlotNumber = -1
+Dec 28 22:32:37.807: vmx| DICT       sound.pciSlotNumber = -1
+Dec 28 22:32:37.807: vmx| DICT ethernet0.generatedAddress = 00:0c:29:8a:41:37
+Dec 28 22:32:37.807: vmx| DICT ethernet0.generatedAddressOffset = 0
+Dec 28 22:32:37.807: vmx| DICT        extendedConfigFile = vm.vmxf
+Dec 28 22:32:37.807: vmx| DICT           floppy0.present = TRUE
+Dec 28 22:32:37.808: vmx| DICT            fileSearchPath = .
+Dec 28 22:32:37.808: vmx| DICT    floppy0.startConnected = TRUE
+Dec 28 22:32:37.808: vmx| DICT  ethernet0.startConnected = TRUE
+Dec 28 22:32:37.808: vmx| DICT       tools.remindInstall = TRUE
+Dec 28 22:32:37.808: vmx| DICT                   monitor = release
+Dec 28 22:32:37.808: vmx| DICT monitor_control.log_vmsample = FALSE
+Dec 28 22:32:37.808: vmx| DICT           serial0.present = TRUE
+Dec 28 22:32:37.808: vmx| DICT    serial0.yieldOnMsrRead = FALSE
+Dec 28 22:32:37.808: vmx| DICT          serial0.fileType = device
+Dec 28 22:32:37.808: vmx| DICT          serial0.fileName = COM1
+Dec 28 22:32:37.808: vmx| DICT       serial0.tryNoRxLoss = TRUE
+Dec 28 22:32:37.808: vmx| DICT           scsi0:0.present = FALSE
+Dec 28 22:32:37.808: vmx| DICT          scsi0:0.fileName = 
+Dec 28 22:32:37.808: vmx| DICT        scsi0:0.deviceType = disk
+Dec 28 22:32:37.809: vmx| DICT              scsi0:0.redo = 
+Dec 28 22:32:37.809: vmx| DICT               usb.present = TRUE
+Dec 28 22:32:37.809: vmx| DICT              ehci.present = FALSE
+Dec 28 22:32:37.809: vmx| DICT        ehci.pciSlotNumber = -1
+Dec 28 22:32:37.809: vmx| DICT               ide1:0.redo = 
+Dec 28 22:32:37.809: vmx| DICT        gui.exitAtPowerOff = FALSE
+Dec 28 22:32:37.809: vmx| DICT      gui.powerOnAtStartup = TRUE
+Dec 28 22:32:37.809: vmx| DICT             svga.maxWidth = 1024
+Dec 28 22:32:37.809: vmx| DICT            svga.maxHeight = 768
+Dec 28 22:32:37.809: vmx| DICT             svga.vramSize = 3145728
+Dec 28 22:32:37.809: vmx| DICT      disable_acceleration = FALSE
+Dec 28 22:32:37.809: vmx| DICT     serial0.pipe.endPoint = server
+Dec 28 22:32:37.809: vmx| DICT  ethernet0.connectionType = bridged
+Dec 28 22:32:37.809: vmx| DICT            ide0:1.present = FALSE
+Dec 28 22:32:37.809: vmx| DICT           ide0:1.fileName = auto detect
+Dec 28 22:32:37.809: vmx| DICT               ide0:1.redo = 
+Dec 28 22:32:37.809: vmx| DICT         ide0:1.autodetect = TRUE
+Dec 28 22:32:37.809: vmx| DICT         ide0:1.deviceType = cdrom-raw
+Dec 28 22:32:37.809: vmx| DICT            ide1:1.present = FALSE
+Dec 28 22:32:37.809: vmx| DICT           ide1:1.fileName = 
+Dec 28 22:32:37.809: vmx| DICT               ide1:1.redo = 
+Dec 28 22:32:37.809: vmx| DICT         ide0:0.autodetect = TRUE
+Dec 28 22:32:37.809: vmx| DICT         ide0:0.deviceType = disk
+Dec 28 22:32:37.809: vmx| DICT         ide1:1.autodetect = TRUE
+Dec 28 22:32:37.809: vmx| DICT         ide1:1.deviceType = disk
+Dec 28 22:32:37.809: vmx| DICT     ide1:1.startConnected = FALSE
+Dec 28 22:32:37.809: vmx| DICT        checkpoint.vmState = 
+Dec 28 22:32:37.809: vmx| DICT    serial0.startConnected = TRUE
+Dec 28 22:32:37.809: vmx| DICT isolation.tools.dnd.disable = TRUE
+Dec 28 22:32:37.809: vmx| DICT isolation.tools.copy.disable = TRUE
+Dec 28 22:32:37.809: vmx| DICT isolation.tools.paste.disable = TRUE
+Dec 28 22:32:37.809: vmx| DICT         snapshot.disabled = TRUE
+Dec 28 22:32:37.809: vmx| DICT           snapshot.action = keep
+Dec 28 22:32:37.810: vmx| DICT           floppy1.present = TRUE
+Dec 28 22:32:37.810: vmx| DICT          floppy1.fileType = file
+Dec 28 22:32:37.810: vmx| DICT          floppy1.fileName = kernel.img
+Dec 28 22:32:37.810: vmx| DICT      floppy1.clientDevice = FALSE
+Dec 28 22:32:37.810: vmx| DICT            msg.autoAnswer = TRUE
+Dec 28 22:32:37.810: vmx| DICT      msg.serial.file.open = Append
+Dec 28 22:32:37.810: vmx| DICT   usb.autoConnect.device0 = path:1/3/0 autoclean:1
+Dec 28 22:32:37.810: vmx| DICT --- USER DEFAULTS
+Dec 28 22:32:37.810: vmx| DICT --- HOST DEFAULTS
+Dec 28 22:32:37.810: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:37.810: vmx| DICT --- SITE DEFAULTS
+Dec 28 22:32:37.810: vmx| DICT prefvmx.useRecommendedLockedMemSize = TRUE
+Dec 28 22:32:37.810: vmx| DICT --- GLOBAL SETTINGS
+Dec 28 22:32:37.825: vmx| Host display topology 1920x1200.
+Dec 28 22:32:37.825: vmx| SVGA using 2360x1770.
+Dec 28 22:32:37.825: vmx| WSSCAN: reserved mem (in MB) min=32 max=3200 recommended=3200
+Dec 28 22:32:37.825: vmx|         hostMem=3328 maxAllowedAll=-1 maxAllowedVM=8192
+Dec 28 22:32:37.825: vmx|         totOverhead=16
+Dec 28 22:32:37.825: vmx| WSSCAN: used rec mem (in MB) 3200
+Dec 28 22:32:37.825: vmx| WSSCAN: Overhead 12093 paged 5341 nonpaged 4096 maxFBSize
+Dec 28 22:32:37.837: vmx| WSSCAN 1 1 638807 638807 819200 670805 50 0
+Dec 28 22:32:37.838: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.6.0.200907' 
+Dec 28 22:32:37.858: vmx| APIC: Host Local APIC at 0xfee00000
+Dec 28 22:32:37.861: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000 .sdata:0x2c000 .statvars:0x2d000 .peer:0x2e000 .shared:0x54000 .bss:0x65000 .rodata:0x6c000 .text:0x77000 .kstatvars:0x3000 ,mmu-pae.vmm32 .rodata:0x75d6c .data:0x2bdb0 .peer:0x52928 .shared:0x639f0 .bss:0x6abc0 .text:0xc996c .comment:0x40000cf0 .statvars:0x2000 .kstatvars:0x2000 .scb:0x400035a0 .shared_meta:0x400034b0 .peer_meta:0x40000ba0 ,sharedmmu-none.vmm32 .text:0xd3834 .comment:0x40000dec ,pv-none.vmm32 .data:0x2bdcc .peer:0x1000 .shared:0x64300 .bss:0x6b120 .text:0xd3850 .comment:0x40000dfe .statvars:0x1000 .kstatvars:0x1000 .shared_meta:0x40003720 ,hv-none.vmm32 .data:0x2bdd0 .peer:0x1000 .shared:0x1000 .bss:0x6b19c .text:0xd3950 .comment:0x40000e46 .statvars:0x1000 .kstatvars:0x1000 ,buslogic-buslogic.vmm32 .shared:0x64448 .bss:0x1000 .text:0xd39b4 .comment:0x40000e58 .scb:0x400036c0 .shared_meta:0x400037b0 ,<MonSrcFile> .rodata:0x75d7c ]
+Dec 28 22:32:37.868: vmx| KHZEstimate 2520700
+Dec 28 22:32:37.868: vmx| MHZEstimate 2521
+Dec 28 22:32:37.868: vmx| NumVCPUs 1
+Dec 28 22:32:37.868: vmx| guestCPUID vendor: GenuntelineI
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000001, 0: 0x00010678 0x00010800 0x00000211 0x0febfbff
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb4307d
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00022220
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Dec 28 22:32:37.868: vmx| guestCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 0000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100800
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000003, 0: 0x65726f43 0x50432020 0x20202055 0x45202020
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000004, 0: 0x30303235 0x20402020 0x30352e32 0x007a4847
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x08006040 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.868: vmx| guestCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Dec 28 22:32:37.869: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Dec 28 22:32:37.869: vmx| UUID: location-UUID is 56 4d 25 ff f0 a7 7c 3a-7a a1 df 4a 78 3f dc 3f
+Dec 28 22:32:37.870: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:37.870: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:37.870: vmx| MM: Using partialmap, 4096 pages AC 0 CE 1 TM 0 DOHU 0
+Dec 28 22:32:37.870: vmx| UUID: canonical path is c:\users\ecco\desktop\eos-core\vm\vm.vmx
+Dec 28 22:32:37.870: vmx| UUID: location-UUID is 56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2
+Dec 28 22:32:37.875: vmx| MM: using 'C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem' as a paging file
+Dec 28 22:32:37.875: vmx| Msg_Reset:
+Dec 28 22:32:37.875: vmx| ----------------------------------------
+Dec 28 22:32:37.875: vmx| Opened paging file C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem
+Dec 28 22:32:37.875: vmx| Mapped mainmem as pageable
+Dec 28 22:32:37.875: vmx| MStat: Creating Stat vm.uptime
+Dec 28 22:32:37.875: vmx| MStat: Creating Stat vm.suspendTime
+Dec 28 22:32:37.875: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Dec 28 22:32:37.885: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Dec 28 22:32:37.892: vmx| DISK: OPEN ide0:0 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' persistent R[(null)]
+Dec 28 22:32:37.995: vmx| DISKLIB-DSCPTR: Opened [0]: "vm.vmdk" (0xa)
+Dec 28 22:32:37.996: vmx| DISKLIB-LINK  : Opened 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' (0xa): monolithicSparse, 16777216 sectors / 8192 Mb.
+Dec 28 22:32:37.996: vmx| DISKLIB-LIB   : Opened "C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk" (flags 0xa). 26B145C
+Dec 28 22:32:37.996: vmx| DiskGetGeometry: Reading of disk partition table
+Dec 28 22:32:37.997: vmx| DISK: OPEN 'C:\Users\Ecco\Desktop\eos-core\vm\vm.vmdk' Geo (16383/16/63) BIOS Geo (0/0/0) freeSpace=24284Mb, ide
+Dec 28 22:32:37.998: vmx| Msg_Reset:
+Dec 28 22:32:37.998: vmx| ----------------------------------------
+Dec 28 22:32:37.998: vmx| TimeTracker host to guest rate conversion 270617341147100 @ 2520700000Hz -> 270617341147100 @ 2520700000Hz
+Dec 28 22:32:37.998: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Dec 28 22:32:37.999: vmx| USB: Initializing 'Generic' backend
+Dec 28 22:32:38.000: vmx| USBGW: Connected to HCMON version 2.3
+Dec 28 22:32:38.000: vmx| USB: Initializing 'Virtual Hub' backend
+Dec 28 22:32:38.000: vmx| USB: Initializing 'Virtual Mouse' backend
+Dec 28 22:32:38.000: vmx| USB: Search for USB devices to connect [path:1/3/0 autoclean:1]
+Dec 28 22:32:38.001: vmx| Host display topology 1920x1200.
+Dec 28 22:32:38.001: vmx| SVGA using 2360x1770.
+Dec 28 22:32:38.003: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Dec 28 22:32:38.004: vmx| DISKUTIL: ide0:0 : capacity=16777216
+Dec 28 22:32:38.005: vmx| Host display topology 1920x1200 with 1 displays.
+Dec 28 22:32:38.005: vmx| SVGA using 2360x1770.
+Dec 28 22:32:38.005: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Dec 28 22:32:38.005: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Dec 28 22:32:38.005: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Dec 28 22:32:38.005: vmx| E1000: checksum cycles/kB: C=962 asm=646
+Dec 28 22:32:38.006: vmx| USB: Initializing 'UHCI' host controller
+Dec 28 22:32:38.006: vmx| MStat: Creating Stat vm.heartbeat
+Dec 28 22:32:38.006: vmx| DISKUTIL: ide0:0 : toolsVersion = 0
+Dec 28 22:32:38.006: vmx| DISKUTIL: Offline toolsVersion = 0
+Dec 28 22:32:38.007: vmx| Msg_Hint: msg.tools.toolsReminder (not sent)
+Dec 28 22:32:38.007: vmx| Do not forget to install the VMware Tools package inside this virtual machine: wait until your guest operating system finishes booting, then choose VM > Install VMware Tools… and follow the instructions.
+Dec 28 22:32:38.007: vmx| 
+Dec 28 22:32:38.007: vmx| ---------------------------------------
+Dec 28 22:32:38.007: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Dec 28 22:32:38.008: vmx| PTSC to VMI Wallclock (nsec) 270617366354908 @ 2520700000Hz -> 1293607958000000000 @ 1000000000Hz
+Dec 28 22:32:38.008: vmx| PTSC to VMI Wallclock (nsec) ((x * 3407757603) >> 33) + 1293500599977907651
+Dec 28 22:32:38.008: vmx| VirtualProtect MapProtectMem(0x20d0000,0x1000) returns 0x1e7
+Dec 28 22:32:38.008: vmx| VirtualProtect MapProtectMem(0x20d2000,0x0) returns 0x57
+Dec 28 22:32:38.010: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Dec 28 22:32:38.010: vmx| DnD rpc already set to 0
+Dec 28 22:32:38.010: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:38.017: vmx| VMXVmdbLoadUsbDevices: New set of 0 USB devices
+Dec 28 22:32:38.017: vmx| USB: Removing stale autoconnect pattern [path:1/3/0 autoclean:1]
+Dec 28 22:32:38.017: vmx| USB: Removing autoconnect pattern from slot 0
+Dec 28 22:32:38.018: vmx| Msg_Reset:
+Dec 28 22:32:38.018: vmx| ----------------------------------------
+Dec 28 22:32:38.018: vmx| Msg_Hint: msg.usb.autoConnectFailed (not sent)
+Dec 28 22:32:38.018: vmx| A USB device that was previously attached to this VM could not be automatically reconnected. If the device is still available but resides on a different USB port, you will need to reconnect it manually.
+Dec 28 22:32:38.018: vmx| 
+Dec 28 22:32:38.018: vmx| ---------------------------------------
+Dec 28 22:32:38.018: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Dec 28 22:32:38.018: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Dec 28 22:32:38.019: mks| Async MKS thread is alive
+Dec 28 22:32:38.019: vcpu-0| APIC: version = 0x14, max LVT = 5
+Dec 28 22:32:38.019: vcpu-0| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Dec 28 22:32:38.024: vmx| DnD rpc already set to 0
+Dec 28 22:32:38.024: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:38.025: vcpu-0| guestCpuFeatures = 0x500001f0
+Dec 28 22:32:38.025: vcpu-0| Init modules.
+Dec 28 22:32:38.032: vcpu-0| CPU reset: hard
+Dec 28 22:32:38.032: vmx| serial0: dwProvSubType 1
+Dec 28 22:32:38.032: vmx| serial0: DATABITS_5 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: DATABITS_6 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: DATABITS_7 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: DATABITS_8 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: STOPBITS_10 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: STOPBITS_15 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: STOPBITS_20 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: PARITY_NONE supported: yes
+Dec 28 22:32:38.032: vmx| serial0: PARITY_ODD supported: yes
+Dec 28 22:32:38.032: vmx| serial0: PARITY_EVEN supported: yes
+Dec 28 22:32:38.032: vmx| serial0: PARITY_MARK supported: yes
+Dec 28 22:32:38.032: vmx| serial0: PARITY_SPACE supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_075 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_110 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_134_5 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_150 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_300 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_600 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_1200 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_1800 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_2400 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_4800 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_7200 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_9600 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_14400 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_19200 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_38400 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_56K supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_57600 supported: yes
+Dec 28 22:32:38.032: vmx| serial0: BAUD_115200 supported: yes
+Dec 28 22:32:38.033: vmx| serial0: BAUD_128K supported: no
+Dec 28 22:32:38.033: vmx| serial0: BAUD_USER supported: yes
+Dec 28 22:32:38.045: vmx| FLOPPYLIB-IMAGE: Invalid boot sector: signature ffff, sector size 512, sectors 2880
+Dec 28 22:32:38.045: vmx| FLOPPYLIB-IMAGE: Expected: signature aa55, sector size 512, sectors 2880
+Dec 28 22:32:38.045: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from image size.
+Dec 28 22:32:38.053: vmx| FLOPPYLIB-IMAGE: Floppy geometry 80/2/18 detected from boot sector.
+Dec 28 22:32:38.066: vcpu-0| sz=3059680
+Dec 28 22:32:38.069: mks| Connecting to window system.
+Dec 28 22:32:38.070: vcpu-0| vmm32 initialized: Releasebuild-45731. cflags: 0x00000002.08000002.50000600.00000002
+Dec 28 22:32:38.087: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:38.091: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:38.093: vcpu-0| MonitorInitNumaUnmapVMM32
+Dec 28 22:32:38.321: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0x0) and 0xe8000000(0x0)
+Dec 28 22:32:38.326: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:38.335: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:38.342: vcpu-0| SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:38.344: vcpu-0| SVGA: Registering IOSpace at 0x10a0
+Dec 28 22:32:38.344: vcpu-0| SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xe8000000(0xe8000000)
+Dec 28 22:32:38.376: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:38.464: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:38.465: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:39.264: vcpu-0| VIDE: Curr CHS info cyls: 17475 heads: 15 sects: 63 lba_cap: 16777216
+Dec 28 22:32:40.084: vmx| USB: Found device [name:Audio\ Device vid:1210 pid:000f path:1/2/1 speed:full family:audio]
+Dec 28 22:32:40.084: vmx| USB: Found device [name:Ours\ Removable\ Disk vid:0ea0 pid:2168 path:1/3/0 speed:high family:storage]
+Dec 28 22:32:40.084: vmx| VMXVmdbLoadUsbDevices: New set of 2 USB devices
+Dec 28 22:32:40.391: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state suspended without reset
+Dec 28 22:32:40.394: vcpu-0| Sync monModules(1).
+Dec 28 22:32:40.394: vcpu-0| Done Sync monModules(1).
+Dec 28 22:32:40.399: vcpu-0| Cpt monModules(2).
+Dec 28 22:32:40.399: vcpu-0| Done Cpt monModules(2).
+Dec 28 22:32:40.399: vmx| DUMPER: Creating checkpoint file .\vm.vmss
+Dec 28 22:32:40.421: vmx| Checkpointed in VMware Workstation, 6.0.0 build-45731, build-45731, Windows Host
+Dec 28 22:32:40.449: vmx| MM: Renamed C:\Users\Ecco\Desktop\eos-core\vm\564d34f4-0014-3ed2-00d1-b1decf3801c2.vmem to .\vm.vmem
+Dec 28 22:32:40.515: mks| Ignoring update request in VGA_Expose (mode change pending).
+Dec 28 22:32:40.564: vmx| Msg_Reset:
+Dec 28 22:32:40.564: vmx| ----------------------------------------
+Dec 28 22:32:40.567: vmx| Stopping VCPU threads...
+Dec 28 22:32:41.568: mks| Detaching from window system.
+Dec 28 22:32:41.569: mks| Async MKS thread is exiting
+Dec 28 22:32:41.569: vmx| DnD rpc already set to 0
+Dec 28 22:32:41.569: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Dec 28 22:32:41.569: vmx| DnD CopyPasteRegisterRpc already set to 0
+Dec 28 22:32:41.569: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Dec 28 22:32:41.649: vmx| MKS local poweroff
+Dec 28 22:32:41.660: vmx| AIOWIN32: asyncOps=1 syncOps=26 bufSize=4Kb delayed=0 fixed=2 sgOp=16 sgOn=1
+Dec 28 22:32:41.660: vmx| WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0
+Dec 28 22:32:41.812: vmx| vmdbPipe_Streams: Couldn't read
+Dec 28 22:32:41.812: vmx| VMX idle exit
+Dec 28 22:32:41.813: vmx| Flushing VMX VMDB connections
+Dec 28 22:32:41.813: vmx| IPC_exit: disconnecting all threads
+Dec 28 22:32:41.813: vmx| VMX exit (0).
+Dec 28 22:32:41.813: vmx| AIOMGR-S : stat o=5 r=15 w=0 i=0 br=64000 bw=0

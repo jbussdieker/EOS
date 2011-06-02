@@ -1,0 +1,131 @@
+config.version = "8"
+virtualHW.version = "6"
+scsi0.present = "TRUE"
+memsize = "16"
+ide0:0.present = "TRUE"
+ide0:0.fileName = "vm.vmdk"
+ide1:0.present = "FALSE"
+ide1:0.fileName = "vm-0.vmdk"
+ide1:0.deviceType = "disk"
+floppy0.autodetect = "TRUE"
+ethernet0.present = "FALSE"
+ethernet0.wakeOnPcktRcv = "FALSE"
+sound.present = "FALSE"
+sound.fileName = "-1"
+sound.autodetect = "TRUE"
+svga.autodetect = "TRUE"
+pciBridge0.present = "TRUE"
+mks.keyboardFilter = "allow"
+displayName = "Other"
+guestOS = "other"
+nvram = "vm.nvram"
+deploymentPlatform = "windows"
+virtualHW.productCompatibility = "hosted"
+tools.upgrade.policy = "manual"
+
+ide1:0.autodetect = "TRUE"
+floppy0.fileType = "file"
+floppy0.fileName = "boot.img"
+floppy0.clientDevice = "FALSE"
+
+isolation.tools.hgfs.disable = "TRUE"
+
+ethernet0.addressType = "generated"
+uuid.location = "56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2"
+uuid.bios = "56 4d 34 f4 00 14 3e d2-00 d1 b1 de cf 38 01 c2"
+ide0:0.redo = ""
+pciBridge0.pciSlotNumber = "17"
+scsi0.pciSlotNumber = "16"
+ethernet0.pciSlotNumber = "-1"
+sound.pciSlotNumber = "-1"
+ethernet0.generatedAddress = "00:0c:29:8a:41:37"
+ethernet0.generatedAddressOffset = "0"
+
+extendedConfigFile = "vm.vmxf"
+
+floppy0.present = "TRUE"
+
+fileSearchPath = "."
+
+floppy0.startConnected = "TRUE"
+
+ethernet0.startConnected = "TRUE"
+
+tools.remindInstall = "TRUE"
+
+monitor = "release"
+
+monitor_control.log_vmsample = "FALSE"
+
+serial0.present = "TRUE"
+serial0.yieldOnMsrRead = "FALSE"
+serial0.fileType = "device"
+serial0.fileName = "COM1"
+serial0.tryNoRxLoss = "TRUE"
+
+scsi0:0.present = "FALSE"
+scsi0:0.fileName = ""
+scsi0:0.deviceType = "disk"
+
+scsi0:0.redo = ""
+
+usb.present = "TRUE"
+ehci.present = "FALSE"
+
+ehci.pciSlotNumber = "-1"
+
+ide1:0.redo = ""
+
+gui.exitAtPowerOff = "FALSE"
+gui.powerOnAtStartup = "TRUE"
+
+svga.maxWidth = "1024"
+svga.maxHeight = "768"
+svga.vramSize = "3145728"
+
+disable_acceleration = "FALSE"
+
+serial0.pipe.endPoint = "server"
+
+ethernet0.connectionType = "bridged"
+
+ide0:1.present = "FALSE"
+ide0:1.fileName = "auto detect"
+
+ide0:1.redo = ""
+
+ide0:1.autodetect = "TRUE"
+ide0:1.deviceType = "cdrom-raw"
+
+ide1:1.present = "FALSE"
+ide1:1.fileName = ""
+
+ide1:1.redo = ""
+
+ide0:0.autodetect = "TRUE"
+ide0:0.deviceType = "disk"
+
+ide1:1.autodetect = "TRUE"
+ide1:1.deviceType = "disk"
+
+ide1:1.startConnected = "FALSE"
+
+checkpoint.vmState = ""
+
+serial0.startConnected = "TRUE"
+
+isolation.tools.dnd.disable = "TRUE"
+isolation.tools.copy.disable = "TRUE"
+isolation.tools.paste.disable = "TRUE"
+snapshot.disabled = "TRUE"
+snapshot.action = "keep"
+
+floppy1.present = "TRUE"
+floppy1.fileType = "file"
+floppy1.fileName = "kernel.img"
+floppy1.clientDevice = "FALSE"
+
+msg.autoAnswer = "TRUE"
+msg.serial.file.open = "Append"
+
+usb.autoConnect.device0 = "path:1/3/0 autoclean:1"
