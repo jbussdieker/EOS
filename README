@@ -23,7 +23,7 @@ make all-gcc
 make install-gcc
 ````
 2. Build the source code
-* Download the latest version from git clone git@github.com:jbussdieker/EOS
+* Download the latest version from git clone git://github.com/jbussdieker/EOS.git
 ````
 cd EOS
 mkdir build
