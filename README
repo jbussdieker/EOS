@@ -4,6 +4,8 @@ Setting up the build enviroment
 * Download binutils from http://ftp.gnu.org/gnu/binutils/binutils-2.21.1.tar.bz2
 * Download gcc-core from http://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-core-4.6.2.tar.gz
 ````
+apt-get install libmpc-dev
+
 export PREFIX=/usr/local/cross
 export TARGET=i586-elf
 cd /usr/src
@@ -19,4 +21,12 @@ export PATH=$PATH:$PREFIX/bin
 ../gcc-4.6.2/configure --target=$TARGET --prefix=$PREFIX --disable-nls --enable-languages=c --without-headers
 make all-gcc
 make install-gcc
-```
+````
+2. Build the source code
+* Download the latest version from git clone git@github.com:jbussdieker/EOS
+````
+cd EOS
+mkdir build
+make
+````
+The kernel is contained in build/kernel.elf which can be loaded with Grub or a hand rolled boot loader
