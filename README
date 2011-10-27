@@ -1,0 +1,22 @@
+Setting up the build enviroment
+===============================
+1. Cross Compiler for i586 kernel
+* Download binutils from http://ftp.gnu.org/gnu/binutils/binutils-2.21.1.tar.bz2
+* Download gcc-core from http://ftp.gnu.org/gnu/gcc/gcc-4.6.2/gcc-core-4.6.2.tar.gz
+````
+export PREFIX=/usr/local/cross
+export TARGET=i586-elf
+cd /usr/src
+mkdir build-binutils build-gcc
+
+cd /usr/src/build-binutils
+../binutils-2.21.1/configure --target=$TARGET --prefix=$PREFIX --disable-nls
+make all
+make install
+
+cd /usr/src/build-gcc
+export PATH=$PATH:$PREFIX/bin
+../gcc-4.6.2/configure --target=$TARGET --prefix=$PREFIX --disable-nls --enable-languages=c --without-headers
+make all-gcc
+make install-gcc
+```
