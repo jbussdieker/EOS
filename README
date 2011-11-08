@@ -29,4 +29,10 @@ cd EOS
 mkdir build
 make
 ````
-The kernel is contained in build/kernel.elf which can be loaded with Grub or a hand rolled boot loader
+The kernel is contained in build/kernel.elf
+````
+cd EOS/vm
+sudo losetup /dev/loop0 ./kernel.img
+````
+This will mount the kernel floppy image so you can copy the newly compiled kernel over the old one
+At this point you should be able to run the OS in VMware!
